@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pilates Clínico – HC Pilates | Mauá e Santo André</title>
+  <meta name="description" content="Pilates clínico em Mauá e Santo André-SP. Solo, aparelhos e pilates terapêutico com fisioterapeuta especializada. HC Pilates – Cinthia Ravenne. Avaliação gratuita."/>
+  <meta name="keywords" content="pilates mauá, pilates clínico mauá, pilates aparelhos mauá, pilates terapêutico mauá, pilates santo andré, pilates reabilitação mauá"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .for-whom { background: var(--cream-dark); }
+    .for-whom-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
+    .for-whom-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2rem;
+      border-left: 3px solid var(--gold-light);
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .for-whom-card:hover { border-color: var(--gold); box-shadow: var(--shadow-sm); }
+    .for-whom-card h4 { color: var(--brown); font-size: 1.15rem; margin-bottom: .5rem; font-family:'Jost',sans-serif; font-weight:500; }
+    .for-whom-card p { font-size: .88rem; }
+    .methodology { background: var(--brown); }
+    .methodology-tabs { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
+    .method-card {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(201,168,112,.2);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color .3s;
+    }
+    .method-card:hover { border-color: rgba(201,168,112,.6); }
+    .method-card__img { aspect-ratio: 4/3; overflow: hidden; }
+    .method-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+    .method-card:hover .method-card__img img { transform: scale(1.06); }
+    .method-card__body { padding: 2rem; }
+    .method-card__num { font-family:'Cormorant Garamond',serif; color: var(--gold); font-size: .9rem; letter-spacing:.1em; display:block; margin-bottom:.5rem; }
+    .method-card h3 { color: var(--white); font-size: 1.5rem; margin-bottom: .7rem; }
+    .method-card p { color: rgba(255,255,255,.6); font-size: .9rem; line-height: 1.8; }
+    .metodo-grid { display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:center; }
+    @media(max-width:768px) {
+      .for-whom-grid { grid-template-columns: 1fr; }
+      .methodology-tabs { grid-template-columns: 1fr; }
+      .metodo-grid { grid-template-columns:1fr; gap:2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav" class="scrolled" style="background:rgba(248,243,236,.97);box-shadow:0 1px 0 var(--gold-light);">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/><path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/><path d="M30 44c0 0-8-8-8-16 0-5 3.5-8 8-8s8 3 8 8c0 8-8 16-8 16z" fill="#C9A870" opacity=".5"/><path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/><path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/><line x1="30" y1="45" x2="30" y2="52" stroke="#C9A870" stroke-width="1.5"/><line x1="26" y1="52" x2="34" y2="52" stroke="#C9A870" stroke-width="1.5"/></svg>
+      <div><span class="nav-logo-name">HC PILATES</span><span class="nav-logo-tag">Equilíbrio e Bem-Estar</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="pilates.html"       class="nav-link active">Pilates</a></li>
+      <li><a href="fisioterapia.html"  class="nav-link">Fisioterapia</a></li>
+      <li><a href="dtm-atm.html"       class="nav-link">DTM & ATM</a></li>
+      <li><a href="index.html#sobre"   class="nav-link">Sobre</a></li>
+      <li><a href="index.html#unidades" class="nav-link">Unidades</a></li>
+    </ul>
+    <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20aula%20experimental%20de%20Pilates%20na%20HC%20Pilates." class="btn btn--gold nav-cta">Agendar aula experimental</a>
+    <button class="nav-hamburger" id="menuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="mobileMenu">
+  <button class="nav-mobile-close" id="menuClose">✕</button>
+  <a href="pilates.html"      class="nav-link">Pilates</a>
+  <a href="fisioterapia.html" class="nav-link">Fisioterapia</a>
+  <a href="dtm-atm.html"      class="nav-link">DTM & ATM</a>
+  <a href="index.html#sobre"  class="nav-link">Sobre</a>
+  <a href="index.html#unidades" class="nav-link">Unidades</a>
+  <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Pilates%20na%20HC%20Pilates." class="btn btn--gold">Agendar aula</a>
+</div>
+
+
+<!-- HERO -->
+<header class="page-hero">
+  <div class="page-hero__bg" style="background-image:url('fotos/cinthia-pose-equilíbrio.jpg'); background-position:center top;"></div>
+  <div class="page-hero__overlay"></div>
+  <div class="container">
+    <div class="page-hero__content">
+      <span class="label">HC Pilates · Mauá e Santo André</span>
+      <h1>Pilates Clínico</h1>
+      <p class="lead">Movimento terapêutico para reabilitação, postura e qualidade de vida — conduzido por fisioterapeuta especializada, adaptado à sua necessidade.</p>
+      <div class="page-hero__btns">
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20aula%20experimental%20de%20Pilates%20na%20HC%20Pilates." class="btn btn--gold">Agendar aula experimental <span class="arr">→</span></a>
+        <a href="#metodologia" class="btn btn--outline-white">Conhecer as modalidades</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- DIFERENCIAIS -->
+<div class="stats-strip">
+  <div class="container">
+    <div class="stats-inner">
+      <div class="stat"><strong>3</strong><span>Modalidades</span></div>
+      <div class="stat"><strong>100%</strong><span>Individualizado</span></div>
+      <div class="stat"><strong>Fisio</strong><span>Conduzido por fisioterapeuta</span></div>
+      <div class="stat"><strong>+500</strong><span>Pacientes atendidos</span></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- O QUE É PILATES CLÍNICO -->
+<section style="background:var(--cream);">
+  <div class="container">
+    <div class="metodo-grid">
+      <div>
+        <span class="label">O método</span>
+        <h2 style="color:var(--brown);">Pilates Clínico: cuidado profundo, individualizado e humanizado</h2>
+        <div class="divider"></div>
+        <p>Na HC Pilates, o Pilates Clínico representa o nosso compromisso com um cuidado mais profundo, individualizado e humanizado.</p>
+        <p style="margin-top:1rem;">Acreditamos que cada pessoa precisa ser vista além da dor ou da limitação física. Por isso, nossos atendimentos são conduzidos com olhar clínico, escuta atenta e planejamento personalizado, respeitando a história, os objetivos e o momento de cada aluno.</p>
+        <p style="margin-top:1rem;">Unimos conhecimento, movimento e acolhimento para promover saúde, reabilitação, prevenção e qualidade de vida de forma segura e consciente. Mais do que tratar sintomas, buscamos devolver confiança, autonomia e bem-estar através de um atendimento próximo e cheio de propósito.</p>
+        <div style="background:var(--gold-pale);border-left:3px solid var(--gold);padding:1.2rem 1.8rem;margin-top:2rem;border-radius:0 var(--radius) var(--radius) 0;font-size:.92rem;color:var(--brown-mid);">
+          <strong style="color:var(--brown);display:block;margin-bottom:.3rem;">Nossa essência:</strong>
+          Cuidado genuíno, evolução constante e amor pelo que fazemos. Porque para nós, cuidar de pessoas é muito mais do que aplicar técnicas — é criar conexão, gerar transformação e impactar vidas diariamente.
+        </div>
+      </div>
+      <div style="border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;">
+        <img src="fotos/cinthia-pose-barco-pb.jpg" alt="Pilates Clínico – HC Pilates" style="width:100%;height:100%;object-fit:cover;"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- MODALIDADES -->
+<section class="methodology" id="metodologia">
+  <div class="container">
+    <div class="sec-header sec-header--center sec-header--white">
+      <span class="label">Modalidades</span>
+      <h2>Escolha sua prática</h2>
+      <div class="divider divider--center divider--white"></div>
+      <p style="color:rgba(255,255,255,.6);">Trabalhamos com três modalidades de Pilates, sempre orientadas por fisioterapeuta e adaptadas ao seu objetivo e condição física.</p>
+    </div>
+    <div class="methodology-tabs">
+
+      <div class="method-card">
+        <div class="method-card__img">
+          <img src="fotos/cinthia-03.jpg" alt="Pilates Solo"/>
+        </div>
+        <div class="method-card__body">
+          <span class="method-card__num">01</span>
+          <h3>Pilates Solo</h3>
+          <p>Exercícios no colchonete que trabalham o fortalecimento global, controle respiratório e consciência corporal. Ideal para iniciantes, bem-estar geral e como complemento ao Pilates em Aparelhos.</p>
+        </div>
+      </div>
+
+      <div class="method-card">
+        <div class="method-card__img">
+          <img src="fotos/cinthia-04.jpg" alt="Pilates em Aparelhos"/>
+        </div>
+        <div class="method-card__body">
+          <span class="method-card__num">02</span>
+          <h3>Pilates em Aparelhos</h3>
+          <p>Uso do Reformer, Cadeira e outros equipamentos para maior amplitude de movimento, resistência progressiva e reabilitação ortopédica eficiente. Permite maior especificidade no tratamento.</p>
+        </div>
+      </div>
+
+      <div class="method-card">
+        <div class="method-card__img">
+          <img src="fotos/cinthia-06.jpg" alt="Pilates Terapêutico"/>
+        </div>
+        <div class="method-card__body">
+          <span class="method-card__num">03</span>
+          <h3>Pilates Terapêutico</h3>
+          <p>Protocolo individualizado para pré e pós-operatório, dores crônicas, gestantes, idosos e condições específicas como hérnia de disco, escoliose e artrite. Totalmente personalizado.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- BENEFÍCIOS -->
+<section style="background:var(--cream);">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">Resultados</span>
+      <h2 style="color:var(--brown);">O que o Pilates transforma</h2>
+      <div class="divider divider--center"></div>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit">
+        <div class="benefit-icon">🦴</div>
+        <div>
+          <h4>Alívio de Dores Crônicas</h4>
+          <p>Reduz dores na coluna, joelhos e quadris com exercícios precisos e seguros, trabalhando a causa do desequilíbrio.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">⚡</div>
+        <div>
+          <h4>Fortalecimento Muscular</h4>
+          <p>Fortalece o core e os grupos musculares profundos, estabilizando articulações e prevenindo lesões.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🧍</div>
+        <div>
+          <h4>Correção Postural</h4>
+          <p>Melhora o alinhamento postural, reduzindo sobrecargas na coluna e prevenindo lesões futuras no dia a dia.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🤸</div>
+        <div>
+          <h4>Mobilidade e Flexibilidade</h4>
+          <p>Aumenta a amplitude de movimento, alivia rigidez muscular e melhora a funcionalidade nas atividades cotidianas.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🧠</div>
+        <div>
+          <h4>Equilíbrio e Coordenação</h4>
+          <p>Desenvolve propriocepção, equilíbrio e coordenação motora — essencial para idosos e atletas em reabilitação.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">😴</div>
+        <div>
+          <h4>Qualidade de Vida</h4>
+          <p>Reduz estresse, melhora a qualidade do sono e promove bem-estar global com a prática regular e orientada.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PARA QUEM É -->
+<section class="for-whom">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">Indicações</span>
+      <h2 style="color:var(--brown);">Para quem é o Pilates Clínico?</h2>
+      <div class="divider divider--center"></div>
+      <p>O Pilates Clínico é indicado para pessoas em qualquer fase da vida e com objetivos variados — desde a reabilitação de lesões até a busca por mais qualidade de vida.</p>
+    </div>
+    <div class="for-whom-grid">
+      <div class="for-whom-card">
+        <h4>🦴 Dores na Coluna</h4>
+        <p>Lombalgia, dor cervical, hérnia de disco, escoliose e desequilíbrios posturais que geram dor ou limitação de movimento.</p>
+      </div>
+      <div class="for-whom-card">
+        <h4>🏥 Pós-operatório</h4>
+        <p>Reabilitação após cirurgias ortopédicas, como joelho, quadril, ombro e coluna — acelerando a recuperação com segurança.</p>
+      </div>
+      <div class="for-whom-card">
+        <h4>🤰 Gestantes</h4>
+        <p>Em todas as fases da gestação (sem gestação de risco), com exercícios adaptados para a segurança da mãe e do bebê.</p>
+      </div>
+      <div class="for-whom-card">
+        <h4>👴 Idosos</h4>
+        <p>Manutenção da mobilidade, equilíbrio e independência funcional — com cuidados e adaptações específicas para cada caso.</p>
+      </div>
+      <div class="for-whom-card">
+        <h4>🏃 Atletas</h4>
+        <p>Prevenção de lesões, melhora do desempenho e reabilitação esportiva. O Pilates potencializa qualquer modalidade esportiva.</p>
+      </div>
+      <div class="for-whom-card">
+        <h4>✨ Bem-estar Geral</h4>
+        <p>Para quem busca mais energia, melhor postura, qualidade de sono e um corpo mais equilibrado no dia a dia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- GALERIA -->
+<section style="background:var(--brown);padding:5rem 0;">
+  <div class="container">
+    <div class="sec-header sec-header--center sec-header--white">
+      <span class="label">Em prática</span>
+      <h2>Cinthia Ravenne</h2>
+      <div class="divider divider--center"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="g-item"><img src="fotos/cinthia-08.jpg" alt="Pilates HC"/></div>
+      <div class="g-item"><img src="fotos/cinthia-09.jpg" alt="Pilates HC"/></div>
+      <div class="g-item g-item--wide"><img src="fotos/cinthia-pose-equilíbrio.jpg" alt="Pilates HC"/></div>
+      <div class="g-item"><img src="fotos/cinthia-10.jpg" alt="Pilates HC"/></div>
+      <div class="g-item"><img src="fotos/cinthia-11.jpg" alt="Pilates HC"/></div>
+    </div>
+    <div style="text-align:center;margin-top:2rem;">
+      <a href="https://www.instagram.com/hc.pilates/" target="_blank" class="btn btn--outline-white">Ver mais no @hc.pilates <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+
+<!-- UNIDADES -->
+<section id="unidades" style="background:var(--cream-dark);">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">Onde encontrar</span>
+      <h2 style="color:var(--brown);">Nossas Unidades</h2>
+      <div class="divider divider--center"></div>
+    </div>
+    <div class="units-grid">
+      <div class="unit-card unit-card--main">
+        <div class="unit-badge">Unidade Principal</div>
+        <h3>Shopping Mauá</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Av. Gov. Mario Covas Jr., 01 – Centro<br/>Mauá, SP · 09390-040</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🅿️</span>
+          <div><span>Valet + zona azul · Prédio acessível ♿</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://www.google.com/maps?q=Av.+Gov.+Mario+Covas+J%C3%BAnior,+01+-+Centro,+Mau%C3%A1+-+SP" target="_blank" class="btn btn--outline">Ver no mapa</a>
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Pilates%20na%20unidade%20Shopping%20Mauá." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+      <div class="unit-card">
+        <h3>Jardim Haydee</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Jardim Haydee – Mauá, SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Pilates%20na%20unidade%20Jardim%20Haydee." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+      <div class="unit-card">
+        <h3>Santo André</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Av. Portugal – Santo André, SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Pilates%20na%20unidade%20de%20Santo%20André." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<div class="cta-banner cta-banner--gold">
+  <div class="container">
+    <span class="label" style="color:var(--brown-mid);text-align:center;display:block;">Primeira aula</span>
+    <h2>Experimente o Pilates Clínico</h2>
+    <p>Aula experimental gratuita · Avaliação individualizada · Sem compromisso</p>
+    <div class="cta-btns">
+      <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20aula%20experimental%20de%20Pilates%20na%20HC%20Pilates." class="btn btn--dark">Agendar aula experimental <span class="arr">→</span></a>
+      <a href="index.html" class="btn btn--outline">Ver outros serviços</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:.7rem;">
+          <svg width="30" height="30" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/><path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/><path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/><path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/></svg>
+          <div><div style="font-family:'Cormorant Garamond',serif;font-size:.95rem;color:var(--white);letter-spacing:.1em;">HC PILATES</div><div style="font-size:.52rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;">Equilíbrio e Bem-Estar</div></div>
+        </div>
+        <p>Pilates Clínico com fisioterapeuta especializada. 3 unidades em Mauá e Santo André – SP.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Pilates</h5>
+        <ul>
+          <li><a href="#metodologia">Pilates Solo</a></li>
+          <li><a href="#metodologia">Pilates em Aparelhos</a></li>
+          <li><a href="#metodologia">Pilates Terapêutico</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Outros Serviços</h5>
+        <ul>
+          <li><a href="fisioterapia.html">Fisioterapia</a></li>
+          <li><a href="dtm-atm.html">DTM & ATM</a></li>
+          <li><a href="dtm-atm.html#bruxismo">Bruxismo</a></li>
+          <li><a href="index.html">Página inicial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="https://api.whatsapp.com/send/?phone=5511967608428">(11) 96760-8428</a></li>
+          <li><a href="https://www.instagram.com/hc.pilates/" target="_blank">@hc.pilates</a></li>
+          <li><a href="https://www.instagram.com/fisioravenne/" target="_blank">@fisioravenne</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 HC Pilates. Desenvolvido por <a href="#" style="color:rgba(201,168,112,.4);">EXP Digital</a></p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/hc.pilates/" target="_blank" class="fsoc">IG</a>
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428" target="_blank" class="fsoc">WA</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20saber%20sobre%20as%20aulas%20de%20Pilates%20na%20HC%20Pilates." class="wa-btn" target="_blank">
+  <svg viewBox="0 0 24 24"><path fill="white" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 60));
+  document.getElementById('menuBtn').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+  document.getElementById('menuClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+</script>
+</body>
+</html>

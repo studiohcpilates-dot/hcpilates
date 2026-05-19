@@ -1,0 +1,194 @@
+{
+  "version": "0.4",
+  "title": "HC Pilates – Fisioterapia",
+  "type": "page",
+  "content": [
+    {
+      "id": "sf000001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#3B2A1E", "padding": { "unit": "px", "top": "160", "right": "40", "bottom": "120", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000001", "elType": "column", "settings": { "_column_size": 60 }, "elements": [
+            { "id": "wf000001", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>HC Pilates · Cinthia Ravenne</p>" }, "elements": [] },
+            { "id": "wf000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "Fisioterapia Ortopédica", "header_size": "h1", "title_color": "#FFFFFF", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 64 } }, "elements": [] },
+            { "id": "wf000003", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='color:rgba(255,255,255,.8);font-size:1.1rem;line-height:1.8;max-width:540px;'>Tratamento de dores, lesões e desequilíbrios do movimento com avaliação individualizada — resolva a causa, não só o sintoma.</p>" }, "elements": [] },
+            { "id": "wf000004", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar avaliação gratuita →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20Fisioterapia%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000002",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#3B2A1E", "padding": { "unit": "px", "top": "40", "right": "40", "bottom": "40", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000002", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wf000005", "elType": "widget", "widgetType": "heading", "settings": { "title": "Fisio", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 36 } }, "elements": [] },
+            { "id": "wf000006", "elType": "widget", "widgetType": "heading", "settings": { "title": "Especialista Cinthia Ravenne", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] },
+        { "id": "cf000003", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wf000007", "elType": "widget", "widgetType": "heading", "settings": { "title": "+10", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wf000008", "elType": "widget", "widgetType": "heading", "settings": { "title": "Anos de experiência clínica", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] },
+        { "id": "cf000004", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wf000009", "elType": "widget", "widgetType": "heading", "settings": { "title": "100%", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wf000010", "elType": "widget", "widgetType": "heading", "settings": { "title": "Avaliação individualizada", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] },
+        { "id": "cf000005", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wf000011", "elType": "widget", "widgetType": "heading", "settings": { "title": "3", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wf000012", "elType": "widget", "widgetType": "heading", "settings": { "title": "Unidades em Mauá e Santo André", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000003",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F8F3EC", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        {
+          "id": "cf000006",
+          "elType": "column",
+          "settings": { "_column_size": 50, "padding": { "unit": "px", "top": "0", "right": "60", "bottom": "0", "left": "0", "isLinked": false } },
+          "elements": [
+            { "id": "wf000013", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Você se identifica?</p>" }, "elements": [] },
+            { "id": "wf000014", "elType": "widget", "widgetType": "heading", "settings": { "title": "Está convivendo com uma dor que não passa?", "header_size": "h2", "title_color": "#3B2A1E", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 38 } }, "elements": [] },
+            { "id": "wf000015", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wf000016", "elType": "widget", "widgetType": "icon-list", "settings": {
+                "icon_list": [
+                  { "_id": "fi01", "text": "Sente dor na coluna, pescoço ou ombros ao acordar ou no final do dia", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "fi02", "text": "Já tomou remédio, descansou — mas a dor voltou igual ou pior", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "fi03", "text": "A dor te impede de trabalhar, praticar exercícios ou fazer atividades simples", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "fi04", "text": "Passou por médicos e exames, mas o tratamento não resolveu de vez", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "fi05", "text": "Sente formigamento, pontadas ou limitação de movimento no dia a dia", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "fi06", "text": "Está em recuperação após cirurgia ortopédica e quer voltar à vida normal", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "fi07", "text": "Percebeu que sua postura piorou e isso está causando desconforto constante", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "fi08", "text": "Te disseram para \"aprender a conviver\" — e você não aceita isso", "icon": { "value": "fas fa-arrow-right", "library": "solid" } }
+                ],
+                "icon_color": "#C9A870",
+                "text_color": "#5C4A3A"
+              }, "elements": [] },
+            { "id": "wf000017", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='background:#F5EDD6;border-left:3px solid #C9A870;padding:1.2rem 1.8rem;border-radius:0 6px 6px 0;'><p style='color:#5C4A3A;'>Se você se identificou com algum desses cenários, saiba que existe um <strong>caminho diferente</strong>. Um tratamento que vai além do alívio temporário e trata a <strong>origem do problema</strong>.</p></div>" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "cf000007",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wf000018", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full" }, "elements": [] },
+            { "id": "wf000019", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='background:#3B2A1E;border-radius:8px;padding:2rem;margin-top:1rem;'><p style='color:#C9A870;font-family:Cormorant Garamond,serif;font-size:1.25rem;line-height:1.7;font-style:italic;'>\"A fisioterapia eficaz não suprime a dor — ela entende por que o corpo dói e reequilibra o que estava fora de lugar.\"</p><p style='color:rgba(255,255,255,.5);font-size:.8rem;margin-top:.8rem;'>— Cinthia Ravenne, Fisioterapeuta</p></div>" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf000004",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F2EDE5", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000008", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wf000020", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>O problema por trás do problema</p>" }, "elements": [] },
+            { "id": "wf000021", "elType": "widget", "widgetType": "heading", "settings": { "title": "Por que os tratamentos comuns não resolvem?", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 38 } }, "elements": [] },
+            { "id": "wf000022", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wf000023", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;max-width:600px;margin:0 auto;'>A maioria das abordagens trata o <em>sintoma</em> — a dor. Mas enquanto a causa estrutural não for tratada, a dor retorna.</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000005",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F2EDE5", "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "0", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000009", "elType": "column", "settings": { "_column_size": 25, "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "24", "left": "20", "isLinked": false } }, "elements": [
+            { "id": "wf000024", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>💊 Remédios e anti-inflamatórios</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Aliviam a dor temporariamente, mas não corrigem o desequilíbrio muscular, postural ou articular que gera o problema. Quando o efeito passa, a dor volta.</p>" }, "elements": [] }
+        ] },
+        { "id": "cf000010", "elType": "column", "settings": { "_column_size": 25, "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "24", "left": "20", "isLinked": false } }, "elements": [
+            { "id": "wf000025", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>🛋️ Repouso prolongado</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>O descanso pode ajudar no curto prazo, mas sem reabilitação ativa, os músculos enfraquecem, as articulações perdem mobilidade e o ciclo de dor se repete.</p>" }, "elements": [] }
+        ] },
+        { "id": "cf000011", "elType": "column", "settings": { "_column_size": 25, "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "24", "left": "20", "isLinked": false } }, "elements": [
+            { "id": "wf000026", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>🤖 Protocolos genéricos</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Sessões em série com os mesmos aparelhos para todo mundo ignoram as particularidades do seu corpo, seu padrão de movimento e sua história de saúde.</p>" }, "elements": [] }
+        ] },
+        { "id": "cf000012", "elType": "column", "settings": { "_column_size": 25, "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "24", "left": "20", "isLinked": false } }, "elements": [
+            { "id": "wf000027", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>📋 Falta de avaliação precisa</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Sem identificar a origem real da disfunção — muscular, articular, postural ou neurológica — qualquer tratamento é uma tentativa no escuro.</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000006",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#3B2A1E", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000013", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wf000028", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Especialidades</p>" }, "elements": [] },
+            { "id": "wf000029", "elType": "widget", "widgetType": "heading", "settings": { "title": "Áreas de atuação", "header_size": "h2", "title_color": "#FFFFFF", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wf000030", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wf000031", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;color:rgba(255,255,255,.6);'>Tratamos as principais causas de dor e limitação de movimento com protocolos validados e abordagem individualizada.</p>" }, "elements": [] },
+            { "id": "wf000032", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem;'><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>🦴</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Coluna Vertebral</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Lombalgia, cervicalgia, hérnia de disco, escoliose, espondilose. Tratamento que descomprime, reequilibra e fortalece.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>🦵</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Joelhos e Quadril</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Condromalácia, lesão de menisco, bursite trocantérica, artrite e pós-operatório de prótese ou artroscopia.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>💪</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Ombros e Cotovelos</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Tendinite, síndrome do impacto, lesão de manguito rotador, epicondilite.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>🦶</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Tornozelos e Pés</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Fasciíte plantar, entorse de tornozelo, tendinite de Aquiles e desequilíbrios posturais.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>🏥</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Pós-operatório</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Reabilitação após cirurgias ortopédicas: joelho, quadril, ombro, coluna.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>🤰</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Gestantes e Pós-parto</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Alívio das dores musculoesqueléticas da gravidez e recuperação funcional do assoalho pélvico.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>👴</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Saúde do Idoso</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Manutenção da mobilidade, equilíbrio e força para prevenir quedas e garantir independência funcional.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>🧍</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Postura e Desequilíbrios</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Hipercifose, hiperlordose, discrepância de membros e desequilíbrios musculares crônicos.</p></div><div style='background:rgba(255,255,255,.07);border:1px solid rgba(201,168,112,.2);border-radius:8px;padding:1.8rem;'><span style='font-size:1.8rem;display:block;margin-bottom:.9rem;'>🏃</span><h4 style='color:#fff;font-size:1rem;margin-bottom:.4rem;'>Lesões Esportivas</h4><p style='color:rgba(255,255,255,.55);font-size:.85rem;line-height:1.7;'>Reabilitação e retorno ao esporte com segurança — para atletas amadores e profissionais.</p></div></div>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000007",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F2EDE5", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000014", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wf000033", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Como funciona</p>" }, "elements": [] },
+            { "id": "wf000034", "elType": "widget", "widgetType": "heading", "settings": { "title": "Nosso protocolo de tratamento", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wf000035", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wf000036", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;'>Um método estruturado em etapas claras — do diagnóstico funcional ao resultado duradouro.</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000008",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F2EDE5", "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000015", "elType": "column", "settings": { "_column_size": 33, "background_background": "classic", "background_color": "#FFFFFF", "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "40", "right": "32", "bottom": "40", "left": "32", "isLinked": false } }, "elements": [
+            { "id": "wf000037", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-family:Cormorant Garamond,serif;font-size:3.5rem;color:#F5EDD6;line-height:1;'>01</p><h4 style='color:#3B2A1E;font-size:1.1rem;margin-bottom:.8rem;'>Avaliação Funcional Completa</h4><p style='color:#7A6050;font-size:.88rem;line-height:1.8;'>A primeira sessão é dedicada a entender você: sua história de dor, exames, padrão de movimento e compensações. Sem avaliação não existe tratamento eficaz — aqui, não pulamos essa etapa.</p>" }, "elements": [] }
+        ] },
+        { "id": "cf000016", "elType": "column", "settings": { "_column_size": 33, "background_background": "classic", "background_color": "#FFFFFF", "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "40", "right": "32", "bottom": "40", "left": "32", "isLinked": false } }, "elements": [
+            { "id": "wf000038", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-family:Cormorant Garamond,serif;font-size:3.5rem;color:#F5EDD6;line-height:1;'>02</p><h4 style='color:#3B2A1E;font-size:1.1rem;margin-bottom:.8rem;'>Protocolo Individualizado</h4><p style='color:#7A6050;font-size:.88rem;line-height:1.8;'>Com base na avaliação, montamos um plano de tratamento específico para o seu caso. Técnicas manuais, exercícios terapêuticos e, quando indicado, integração com Pilates Clínico para potencializar os resultados.</p>" }, "elements": [] }
+        ] },
+        { "id": "cf000017", "elType": "column", "settings": { "_column_size": 33, "background_background": "classic", "background_color": "#FFFFFF", "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "40", "right": "32", "bottom": "40", "left": "32", "isLinked": false } }, "elements": [
+            { "id": "wf000039", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-family:Cormorant Garamond,serif;font-size:3.5rem;color:#F5EDD6;line-height:1;'>03</p><h4 style='color:#3B2A1E;font-size:1.1rem;margin-bottom:.8rem;'>Reavaliação e Progressão</h4><p style='color:#7A6050;font-size:.88rem;line-height:1.8;'>Ao longo do tratamento, o protocolo evolui conforme sua melhora. Acompanhamos cada etapa, ajustamos o que for necessário e só encerramos quando você retoma sua qualidade de vida com segurança.</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000009",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F8F3EC", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000018", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wf000040", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Dúvidas frequentes</p>" }, "elements": [] },
+            { "id": "wf000041", "elType": "widget", "widgetType": "heading", "settings": { "title": "Perguntas sobre Fisioterapia", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wf000042", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wf000043", "elType": "widget", "widgetType": "accordion", "settings": { "tabs": [
+                { "_id": "faq01", "tab_title": "Preciso de encaminhamento médico para fazer fisioterapia?", "tab_content": "Não é obrigatório para consulta particular. Você pode agendar sua avaliação diretamente na HC Pilates. Se você for utilizar convênio, verifique com a sua operadora de saúde se há necessidade de guia de encaminhamento." },
+                { "_id": "faq02", "tab_title": "Quantas sessões vou precisar?", "tab_content": "Depende da condição tratada, da cronicidade da dor e da resposta individual de cada paciente. Na avaliação inicial, Cinthia faz uma estimativa realista. Em média, casos agudos evoluem em 4 a 8 sessões; condições crônicas podem exigir protocolos mais longos." },
+                { "_id": "faq03", "tab_title": "Fisioterapia e Pilates Clínico são a mesma coisa?", "tab_content": "Não — mas se complementam. A fisioterapia ortopédica atua na fase aguda e no diagnóstico funcional. O Pilates Clínico é ideal para a fase de fortalecimento, manutenção e prevenção. Na HC Pilates, a integração entre os dois é um dos nossos grandes diferenciais." },
+                { "_id": "faq04", "tab_title": "A fisioterapia pode substituir uma cirurgia?", "tab_content": "Em muitos casos, sim. Condições como hérnia de disco, tendinites e lesões de manguito rotador frequentemente respondem muito bem ao tratamento conservador (sem cirurgia). A decisão é sempre compartilhada com o médico responsável." },
+                { "_id": "faq05", "tab_title": "Posso fazer fisioterapia durante a gravidez?", "tab_content": "Sim! A fisioterapia é muito indicada durante a gestação para tratar dores lombares, ciatalgia, dores pélvicas e preparar o corpo para o parto. As técnicas são adaptadas para garantir a segurança da mãe e do bebê em todas as fases da gestação." },
+                { "_id": "faq06", "tab_title": "A primeira consulta é paga?", "tab_content": "A avaliação inicial na HC Pilates é gratuita e sem compromisso. Queremos que você conheça nossa proposta, entenda o seu caso com clareza e tome a decisão de tratamento com segurança — sem pressão." },
+                { "_id": "faq07", "tab_title": "Vocês atendem convênio?", "tab_content": "Entre em contato pelo WhatsApp para verificar os convênios disponíveis em cada unidade. Trabalhamos tanto com planos de saúde quanto com atendimento particular, com planos de sessões e condições especiais para tratamentos prolongados." }
+              ] }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sf000010",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#C9A870", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cf000019", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wf000044", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8B6914;'>Avaliação gratuita</p>" }, "elements": [] },
+            { "id": "wf000045", "elType": "widget", "widgetType": "heading", "settings": { "title": "Chega de conviver com a dor", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wf000046", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;color:#5C4A2A;'>Avaliação gratuita · Protocolo individualizado · Resultado duradouro</p>" }, "elements": [] },
+            { "id": "wf000047", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar minha avaliação →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita%20de%20Fisioterapia%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#3B2A1E", "button_text_color": "#C9A870", "align": "center" }, "elements": [] }
+        ] }
+      ]
+    }
+  ],
+  "page_settings": { "post_title": "Fisioterapia", "hide_title": "yes" }
+}

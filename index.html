@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HC Pilates – Equilíbrio e Bem-Estar | Pilates, Fisioterapia e DTM em Mauá e Santo André</title>
+  <meta name="description" content="HC Pilates: Pilates clínico, Fisioterapia e tratamento de DTM e Bruxismo. 3 unidades em Mauá (Shopping e Jd. Haydee) e Santo André – SP. Avaliação gratuita."/>
+  <meta name="keywords" content="pilates mauá, fisioterapia mauá, DTM mauá, bruxismo mauá, pilates shopping mauá, pilates santo andré"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* HOME HERO — split screen */
+    .home-hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 72px;
+    }
+    .home-hero__left {
+      background: var(--cream);
+      display: flex;
+      align-items: center;
+      padding: 4rem 4rem 4rem 0;
+    }
+    .home-hero__left-inner { max-width: 520px; }
+    .home-hero__tag {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: var(--gold-pale); border: 1px solid var(--gold-light);
+      border-radius: 2rem; padding: .3rem 1rem;
+      font-size: .7rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--brown-mid); margin-bottom: 1.8rem;
+    }
+    .home-hero__tag::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--gold); flex-shrink:0; }
+    .home-hero h1 { color: var(--brown); line-height: 1.0; margin-bottom: 1.2rem; }
+    .home-hero h1 em { font-style: italic; color: var(--gold); }
+    .home-hero__desc { font-size: 1.02rem; max-width: 440px; margin-bottom: 2.5rem; line-height: 1.8; }
+    .home-hero__btns { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 3rem; }
+    .home-hero__units {
+      padding-top: 2rem;
+      border-top: 1px solid var(--gold-light);
+      display: flex; flex-direction: column; gap: .5rem;
+    }
+    .home-hero__unit { font-size: .78rem; color: var(--text-light); display: flex; align-items: center; gap: .6rem; }
+    .home-hero__unit::before { content: '◦'; color: var(--gold); font-size: 1rem; }
+    .home-hero__right {
+      background: var(--brown);
+      position: relative;
+      overflow: hidden;
+    }
+    .home-hero__right img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      opacity: .7;
+      mix-blend-mode: luminosity;
+    }
+    .home-hero__badge {
+      position: absolute; bottom: 2.5rem; right: 2.5rem;
+      background: rgba(201,168,112,.12);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(201,168,112,.3);
+      border-radius: var(--radius);
+      padding: 1.4rem 2rem;
+      text-align: right;
+    }
+    .home-hero__badge strong { color: var(--white); display: block; font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; line-height: 1.1; }
+    .home-hero__badge span { color: rgba(255,255,255,.55); font-size: .72rem; letter-spacing: .07em; }
+
+    @media(max-width:900px) {
+      .home-hero { grid-template-columns: 1fr; min-height: auto; }
+      .home-hero__left { padding: 4rem 0 3rem; }
+      .home-hero__right { height: 65vw; min-height: 320px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/>
+        <path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/>
+        <path d="M30 44c0 0-8-8-8-16 0-5 3.5-8 8-8s8 3 8 8c0 8-8 16-8 16z" fill="#C9A870" opacity=".5"/>
+        <path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/>
+        <path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/>
+        <path d="M30 13c0-5-2-9 0-11 2 2 0 6 0 11z" fill="#C9A870"/>
+        <line x1="30" y1="45" x2="30" y2="52" stroke="#C9A870" stroke-width="1.5"/>
+        <line x1="26" y1="52" x2="34" y2="52" stroke="#C9A870" stroke-width="1.5"/>
+      </svg>
+      <div>
+        <span class="nav-logo-name">HC PILATES</span>
+        <span class="nav-logo-tag">Equilíbrio e Bem-Estar</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="pilates.html"       class="nav-link">Pilates</a></li>
+      <li><a href="fisioterapia.html"  class="nav-link">Fisioterapia</a></li>
+      <li><a href="dtm-atm.html"       class="nav-link">DTM & ATM</a></li>
+      <li><a href="#sobre"             class="nav-link">Sobre</a></li>
+      <li><a href="#unidades"          class="nav-link">Unidades</a></li>
+    </ul>
+    <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Vim%20pelo%20site%20HC%20Pilates%20e%20gostaria%20de%20agendar%20uma%20avaliação." class="btn btn--gold nav-cta">Agendar avaliação</a>
+    <button class="nav-hamburger" id="menuBtn" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="nav-mobile" id="mobileMenu">
+  <button class="nav-mobile-close" id="menuClose">✕</button>
+  <a href="pilates.html"      class="nav-link">Pilates</a>
+  <a href="fisioterapia.html" class="nav-link">Fisioterapia</a>
+  <a href="dtm-atm.html"      class="nav-link">DTM & ATM</a>
+  <a href="#sobre"            class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">Sobre</a>
+  <a href="#unidades"         class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">Unidades</a>
+  <a href="https://api.whatsapp.com/send/?phone=5511967608428" class="btn btn--gold">Agendar avaliação</a>
+</div>
+
+
+<!-- HERO -->
+<div class="home-hero">
+  <div class="container" style="display:flex;align-items:center;">
+    <div class="home-hero__left-inner">
+      <div class="home-hero__tag">3 Unidades · Mauá & Santo André – SP</div>
+      <h1>Equilíbrio e <em>Bem-Estar</em> que você merece</h1>
+      <p class="home-hero__desc">Pilates clínico, Fisioterapia especializada e tratamento de DTM — com cuidado humanizado e resultado desde a primeira sessão.</p>
+      <div class="home-hero__btns">
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20minha%20avaliação%20gratuita%20na%20HC%20Pilates." class="btn btn--dark">Avaliação gratuita <span class="arr">→</span></a>
+        <a href="#servicos" class="btn btn--outline">Nossos serviços</a>
+      </div>
+      <div class="home-hero__units">
+        <span class="home-hero__unit">Shopping Mauá – Av. Gov. Mario Covas Jr., 01 · Centro</span>
+        <span class="home-hero__unit">Jardim Haydee – Mauá</span>
+        <span class="home-hero__unit">Av. Portugal – Santo André</span>
+      </div>
+    </div>
+  </div>
+  <div class="home-hero__right">
+    <img src="fotos/cinthia-pose-equilíbrio.jpg" alt="Cinthia Ravenne – HC Pilates"/>
+    <div class="home-hero__badge">
+      <strong>Avaliação Gratuita</strong>
+      <span>Sem compromisso · 3 unidades</span>
+    </div>
+  </div>
+</div>
+
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="container">
+    <div class="stats-inner">
+      <div class="stat"><strong>3</strong><span>Unidades</span></div>
+      <div class="stat"><strong>+500</strong><span>Pacientes atendidos</span></div>
+      <div class="stat"><strong>5★</strong><span>Avaliação Google</span></div>
+      <div class="stat"><strong>1ª</strong><span>Sessão com resultado</span></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- SERVIÇOS -->
+<section id="servicos" style="background:var(--cream-dark);">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">O que fazemos</span>
+      <h2>Escolha o seu serviço</h2>
+      <div class="divider divider--center"></div>
+      <p>Cada serviço tem uma página dedicada com tudo que você precisa saber — metodologia, benefícios e como agendar.</p>
+    </div>
+    <div class="svc-cards">
+
+      <a href="pilates.html" class="svc-card">
+        <div class="svc-card__bg" style="background-image:url('fotos/cinthia-pose-barco-pb.jpg')"></div>
+        <div class="svc-card__overlay"></div>
+        <span class="svc-card__tag">Reabilitação & Bem-Estar</span>
+        <div class="svc-card__body">
+          <span class="svc-card__num">01</span>
+          <h3>Pilates Clínico</h3>
+          <p>Movimento terapêutico para reabilitação, postura e qualidade de vida. Solo e aparelhos.</p>
+          <span class="svc-card__cta">Conhecer <span>→</span></span>
+        </div>
+      </a>
+
+      <a href="fisioterapia.html" class="svc-card">
+        <div class="svc-card__bg" style="background-image:url('fotos/cinthia-07.jpg')"></div>
+        <div class="svc-card__overlay"></div>
+        <span class="svc-card__tag">Tratamento da Origem</span>
+        <div class="svc-card__body">
+          <span class="svc-card__num">02</span>
+          <h3>Fisioterapia</h3>
+          <p>Tratamento que resolve a causa da dor — não apenas o sintoma — com resultado desde a 1ª sessão.</p>
+          <span class="svc-card__cta">Conhecer <span>→</span></span>
+        </div>
+      </a>
+
+      <a href="dtm-atm.html" class="svc-card">
+        <div class="svc-card__bg" style="background-image:url('fotos/cinthia-retrato-profissional.jpg')"></div>
+        <div class="svc-card__overlay"></div>
+        <span class="svc-card__tag">Especialidade · Cinthia Ravenne</span>
+        <div class="svc-card__body">
+          <span class="svc-card__num">03</span>
+          <h3>DTM & ATM</h3>
+          <p>Especialidade em disfunção temporomandibular, bruxismo e dor orofacial.</p>
+          <span class="svc-card__cta">Conhecer <span>→</span></span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- SOBRE CINTHIA -->
+<section id="sobre" style="padding:0;">
+  <div class="about-split">
+    <div class="about-split__photo" style="background-image:url('fotos/cinthia-retrato-profissional.jpg'); min-height:600px;"></div>
+    <div class="about-split__text">
+      <span class="label">Quem somos</span>
+      <h2>Cinthia Ravenne</h2>
+      <div class="divider divider--white"></div>
+      <p>Fisioterapeuta especializada em Pilates Clínico e Disfunção Temporomandibular, Cinthia acredita que cada paciente merece um olhar único — e é assim que ela atua desde a primeira sessão.</p>
+      <p>Com 3 unidades em Mauá e Santo André, a HC Pilates oferece um ambiente projetado para seu conforto e a tecnologia necessária para um atendimento de excelência.</p>
+      <div class="about-split__creds">
+        <div class="cred">Fisioterapeuta especializada em Pilates Clínico e Reabilitação</div>
+        <div class="cred">Especialista em DTM, Bruxismo e Dor Orofacial</div>
+        <div class="cred">Formação em Pilates Solo e Aparelhos em escola referência SP</div>
+        <div class="cred">Atendimento individualizado com avaliação postural completa</div>
+        <div class="cred">Experiência com gestantes, idosos e reabilitação pós-op</div>
+      </div>
+      <div class="about-split__btns">
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20saber%20mais%20sobre%20a%20HC%20Pilates%20com%20a%20Cinthia%20Ravenne." class="btn btn--gold">Falar com a Cinthia <span class="arr">→</span></a>
+        <a href="https://www.instagram.com/fisioravenne/" target="_blank" class="btn btn--outline-white">@fisioravenne</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- GALERIA -->
+<section style="background:var(--brown); padding:5rem 0;">
+  <div class="container">
+    <div class="sec-header sec-header--center sec-header--white">
+      <span class="label">Instagram</span>
+      <h2>Em movimento</h2>
+      <div class="divider divider--center"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="g-item"><img src="fotos/cinthia-01.jpg" alt="HC Pilates"/></div>
+      <div class="g-item"><img src="fotos/cinthia-02.jpg" alt="HC Pilates"/></div>
+      <div class="g-item"><img src="fotos/cinthia-03.jpg" alt="HC Pilates"/></div>
+      <div class="g-item"><img src="fotos/cinthia-04.jpg" alt="HC Pilates"/></div>
+      <div class="g-item g-item--wide"><img src="fotos/cinthia-05.jpg" alt="HC Pilates"/></div>
+      <div class="g-item"><img src="fotos/cinthia-06.jpg" alt="HC Pilates"/></div>
+      <div class="g-item"><img src="fotos/cinthia-07.jpg" alt="HC Pilates"/></div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
+      <a href="https://www.instagram.com/hc.pilates/" target="_blank" class="btn btn--outline-white">@hc.pilates <span class="arr">→</span></a>
+      <a href="https://www.instagram.com/fisioravenne/" target="_blank" class="btn btn--outline-white">@fisioravenne <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+
+<!-- UNIDADES -->
+<section id="unidades" style="background:var(--cream);">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">Onde estamos</span>
+      <h2>Nossas Unidades</h2>
+      <div class="divider divider--center"></div>
+      <p>3 localidades para atender você perto de casa, com o mesmo padrão de excelência em todos os espaços.</p>
+    </div>
+    <div class="units-grid">
+
+      <div class="unit-card unit-card--main">
+        <div class="unit-badge">Unidade Principal</div>
+        <h3>Shopping Mauá</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div>
+            <strong>Endereço</strong>
+            <span>Av. Gov. Mario Covas Júnior, 01<br/>Centro – Mauá, SP  09390-040</span>
+          </div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🅿️</span>
+          <div><span>Valet + zona azul na rua</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">♿</span>
+          <div><span>Prédio acessível</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://www.google.com/maps?q=Av.+Gov.+Mario+Covas+J%C3%BAnior,+01+-+Centro,+Mau%C3%A1+-+SP,+09390-040" target="_blank" class="btn btn--outline">Ver no mapa</a>
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20na%20unidade%20Shopping%20Mauá." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+
+      <div class="unit-card">
+        <h3>Jardim Haydee</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Jardim Haydee<br/>Mauá – SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20na%20unidade%20Jardim%20Haydee%20-%20Mauá." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+
+      <div class="unit-card">
+        <h3>Santo André</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Av. Portugal<br/>Santo André – SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20na%20unidade%20de%20Santo%20André." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Mapa -->
+    <div style="margin-top:3rem;border-radius:var(--radius);overflow:hidden;border:1px solid var(--gold-light);">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.5!2d-46.4617!3d-23.6675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce64bc3d8a0001%3A0x0!2sAv.+Gov.+Mario+Covas+J%C3%BAnior%2C+01+-+Centro%2C+Mau%C3%A1+-+SP!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+        width="100%" height="320" style="border:none;display:block;" allowfullscreen loading="lazy" title="HC Pilates – Shopping Mauá"></iframe>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<div class="cta-banner cta-banner--gold">
+  <div class="container">
+    <span class="label" style="color:var(--brown-mid);text-align:center;display:block;">Comece hoje</span>
+    <h2>Dê o primeiro passo para uma vida sem dor</h2>
+    <p>Avaliação gratuita · Sem encaminhamento médico · Resultado desde a 1ª sessão</p>
+    <div class="cta-btns">
+      <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20minha%20avaliação%20gratuita%20na%20HC%20Pilates." class="btn btn--dark">Agendar via WhatsApp <span class="arr">→</span></a>
+      <a href="tel:+5511967608428" class="btn btn--outline">Ligar agora</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:.7rem;">
+          <svg width="32" height="32" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/><path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/><path d="M30 44c0 0-8-8-8-16 0-5 3.5-8 8-8s8 3 8 8c0 8-8 16-8 16z" fill="#C9A870" opacity=".5"/><path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/><path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/><line x1="30" y1="45" x2="30" y2="52" stroke="#C9A870" stroke-width="1.5"/><line x1="26" y1="52" x2="34" y2="52" stroke="#C9A870" stroke-width="1.5"/></svg>
+          <div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--white);letter-spacing:.1em;">HC PILATES</div>
+            <div style="font-size:.55rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;">Equilíbrio e Bem-Estar</div>
+          </div>
+        </div>
+        <p>Pilates Clínico, Fisioterapia e DTM em Mauá e Santo André – SP. Cuidado humanizado e resultado real desde a primeira sessão.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Serviços</h5>
+        <ul>
+          <li><a href="pilates.html">Pilates Clínico</a></li>
+          <li><a href="pilates.html">Pilates em Aparelhos</a></li>
+          <li><a href="fisioterapia.html">Fisioterapia</a></li>
+          <li><a href="dtm-atm.html">DTM & ATM</a></li>
+          <li><a href="dtm-atm.html">Bruxismo</a></li>
+          <li><a href="dtm-atm.html">Dor Orofacial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Unidades</h5>
+        <ul>
+          <li><a href="#unidades">Shopping Mauá</a></li>
+          <li><a href="#unidades">Jardim Haydee – Mauá</a></li>
+          <li><a href="#unidades">Santo André – SP</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="https://api.whatsapp.com/send/?phone=5511967608428">(11) 96760-8428</a></li>
+          <li><a href="https://www.instagram.com/hc.pilates/" target="_blank">@hc.pilates</a></li>
+          <li><a href="https://www.instagram.com/fisioravenne/" target="_blank">@fisioravenne</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 HC Pilates – Equilíbrio e Bem-Estar. Desenvolvido por <a href="#" style="color:rgba(201,168,112,.4);">EXP Digital</a></p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/hc.pilates/" target="_blank" class="fsoc">IG</a>
+        <a href="https://www.instagram.com/fisioravenne/" target="_blank" class="fsoc">FR</a>
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428" target="_blank" class="fsoc">WA</a>
+        <a href="https://www.google.com/maps?q=Av.+Gov.+Mario+Covas+J%C3%BAnior,+01" target="_blank" class="fsoc">GM</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Vim%20pelo%20site%20HC%20Pilates." class="wa-btn" target="_blank" title="WhatsApp HC Pilates">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 60));
+  document.getElementById('menuBtn').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+  document.getElementById('menuClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+  document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', e => {
+    const t = document.querySelector(a.getAttribute('href'));
+    if (t) { e.preventDefault(); t.scrollIntoView({ behavior:'smooth' }); }
+  }));
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"HC Pilates","description":"Pilates Clínico, Fisioterapia e DTM em Mauá e Santo André","url":"https://hcpilates.com.br","telephone":"+5511967608428","address":{"@type":"PostalAddress","streetAddress":"Av. Gov. Mario Covas Júnior, 01","addressLocality":"Mauá","addressRegion":"SP","postalCode":"09390-040","addressCountry":"BR"},"sameAs":["https://www.instagram.com/hc.pilates/","https://www.instagram.com/fisioravenne/"]}
+</script>
+</body>
+</html>

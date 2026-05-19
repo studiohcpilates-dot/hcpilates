@@ -1,0 +1,799 @@
+================================================================
+HC PILATES — CONTEÚDO PARA WORDPRESS / ELEMENTOR
+Organizado por página e seção
+================================================================
+
+INFORMAÇÕES GERAIS
+━━━━━━━━━━━━━━━━━━
+Nome da marca:   HC PILATES
+Slogan/tagline:  Equilíbrio e Bem-Estar
+WhatsApp:        (11) 96760-8428
+Link WhatsApp:   https://api.whatsapp.com/send/?phone=5511967608428
+Instagram 1:     @hc.pilates     → https://www.instagram.com/hc.pilates/
+Instagram 2:     @fisioravenne   → https://www.instagram.com/fisioravenne/
+
+CORES (para Elementor Global Colors)
+Marrom escuro (fundo): #3B2A1E  (var --brown)
+Ouro:                  #C9A870  (var --gold)
+Creme (fundo claro):   #F8F3EC  (var --cream)
+Texto principal:       #4A3728  (var --brown-mid)
+
+FONTES
+Títulos: Cormorant Garamond (Google Fonts) — peso 300, 400, 600
+Corpo:   Jost (Google Fonts) — peso 300, 400, 500, 600
+
+
+================================================================
+PÁGINA 1 — HOME (index.html)
+================================================================
+
+SEO
+────
+Title: HC Pilates – Equilíbrio e Bem-Estar | Pilates, Fisioterapia e DTM em Mauá e Santo André
+Meta description: HC Pilates: Pilates clínico, Fisioterapia e tratamento de DTM e Bruxismo. 3 unidades em Mauá (Shopping e Jd. Haydee) e Santo André – SP. Avaliação gratuita.
+
+─── SEÇÃO: HERO ───────────────────────────────────────────────
+Tag/badge acima do título:  3 Unidades · Mauá & Santo André – SP
+
+Título H1:
+Equilíbrio e [itálico/dourado] Bem-Estar que você merece
+
+Parágrafo:
+Pilates clínico, Fisioterapia especializada e tratamento de DTM — com cuidado humanizado e resultado desde a primeira sessão.
+
+Botão primário:  Avaliação gratuita →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20minha%20avaliação%20gratuita%20na%20HC%20Pilates.
+
+Botão secundário:  Nossos serviços
+  Link: âncora #servicos
+
+Lista de unidades (abaixo dos botões):
+• Shopping Mauá – Av. Gov. Mario Covas Jr., 01 · Centro
+• Jardim Haydee – Mauá
+• Av. Portugal – Santo André
+
+Imagem lado direito: fotos/cinthia-pose-equilíbrio.jpg
+Badge sobre a foto:
+  Título:   Avaliação Gratuita
+  Subtítulo: Sem compromisso · 3 unidades
+
+─── SEÇÃO: STATS STRIP ────────────────────────────────────────
+(Faixa horizontal com 4 números)
+
+Número 1:  3          | Unidades
+Número 2:  +500       | Pacientes atendidos
+Número 3:  5★         | Avaliação Google
+Número 4:  1ª         | Sessão com resultado
+
+─── SEÇÃO: SERVIÇOS ───────────────────────────────────────────
+Label (texto pequeno acima):  O que fazemos
+Título H2:  Escolha o seu serviço
+Parágrafo:  Cada serviço tem uma página dedicada com tudo que você precisa saber — metodologia, benefícios e como agendar.
+
+CARD 1 – Pilates Clínico
+  Imagem:   fotos/cinthia-pose-barco-pb.jpg
+  Tag:      Reabilitação & Bem-Estar
+  Número:   01
+  Título:   Pilates Clínico
+  Texto:    Movimento terapêutico para reabilitação, postura e qualidade de vida. Solo e aparelhos.
+  Link:     /pilates  (ou pilates.html)
+
+CARD 2 – Fisioterapia
+  Imagem:   fotos/cinthia-07.jpg
+  Tag:      Tratamento da Origem
+  Número:   02
+  Título:   Fisioterapia
+  Texto:    Tratamento que resolve a causa da dor — não apenas o sintoma — com resultado desde a 1ª sessão.
+  Link:     /fisioterapia
+
+CARD 3 – DTM & ATM
+  Imagem:   fotos/cinthia-retrato-profissional.jpg
+  Tag:      Especialidade · Cinthia Ravenne
+  Número:   03
+  Título:   DTM & ATM
+  Texto:    Especialidade em disfunção temporomandibular, bruxismo e dor orofacial.
+  Link:     /dtm-atm
+
+─── SEÇÃO: SOBRE CINTHIA ──────────────────────────────────────
+(Fundo marrom escuro, split: foto esquerda / texto direita)
+
+Label:    Quem somos
+Título H2: Cinthia Ravenne
+
+Parágrafo 1:
+Fisioterapeuta especializada em Pilates Clínico e Disfunção Temporomandibular, Cinthia acredita que cada paciente merece um olhar único — e é assim que ela atua desde a primeira sessão.
+
+Parágrafo 2:
+Com 3 unidades em Mauá e Santo André, a HC Pilates oferece um ambiente projetado para seu conforto e a tecnologia necessária para um atendimento de excelência.
+
+Lista de credenciais:
+• Fisioterapeuta especializada em Pilates Clínico e Reabilitação
+• Especialista em DTM, Bruxismo e Dor Orofacial
+• Formação em Pilates Solo e Aparelhos em escola referência SP
+• Atendimento individualizado com avaliação postural completa
+• Experiência com gestantes, idosos e reabilitação pós-op
+
+Botão 1 (dourado):  Falar com a Cinthia →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20saber%20mais%20sobre%20a%20HC%20Pilates%20com%20a%20Cinthia%20Ravenne.
+
+Botão 2 (outline):  @fisioravenne
+  Link: https://www.instagram.com/fisioravenne/
+
+Imagem:  fotos/cinthia-retrato-profissional.jpg
+
+─── SEÇÃO: GALERIA ────────────────────────────────────────────
+Label:    Instagram
+Título:   Em movimento
+Fundo:    Marrom escuro
+
+Fotos (7 imagens):
+fotos/cinthia-01.jpg
+fotos/cinthia-02.jpg
+fotos/cinthia-03.jpg
+fotos/cinthia-04.jpg
+fotos/cinthia-05.jpg  (destaque / mais larga)
+fotos/cinthia-06.jpg
+fotos/cinthia-07.jpg
+
+Botões abaixo:
+  @hc.pilates →    https://www.instagram.com/hc.pilates/
+  @fisioravenne →  https://www.instagram.com/fisioravenne/
+
+─── SEÇÃO: UNIDADES ───────────────────────────────────────────
+Label:    Onde estamos
+Título:   Nossas Unidades
+Parágrafo: 3 localidades para atender você perto de casa, com o mesmo padrão de excelência em todos os espaços.
+
+UNIDADE 1 — Shopping Mauá (destaque / "Unidade Principal")
+  Badge:    Unidade Principal
+  Título:   Shopping Mauá
+  Endereço: Av. Gov. Mario Covas Júnior, 01 / Centro – Mauá, SP  09390-040
+  Horário:  Segunda a Sexta: 8h às 20h
+  Extra:    Valet + zona azul na rua · Prédio acessível ♿
+  Botão outline: Ver no mapa
+    Link: https://www.google.com/maps?q=Av.+Gov.+Mario+Covas+J%C3%BAnior,+01+-+Centro,+Mau%C3%A1+-+SP,+09390-040
+  Botão ouro: Agendar aqui
+    Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20na%20unidade%20Shopping%20Mauá.
+
+UNIDADE 2 — Jardim Haydee
+  Título:   Jardim Haydee
+  Endereço: Jardim Haydee – Mauá, SP
+  Horário:  Segunda a Sexta: 8h às 20h
+  Botão ouro: Agendar aqui
+    Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20na%20unidade%20Jardim%20Haydee%20-%20Mauá.
+
+UNIDADE 3 — Santo André
+  Título:   Santo André
+  Endereço: Av. Portugal – Santo André, SP
+  Horário:  Segunda a Sexta: 8h às 20h
+  Botão ouro: Agendar aqui
+    Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20na%20unidade%20de%20Santo%20André.
+
+Mapa embed (Google Maps — Unidade Shopping Mauá):
+https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.5!2d-46.4617!3d-23.6675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce64bc3d8a0001%3A0x0!2sAv.+Gov.+Mario+Covas+J%C3%BAnior%2C+01+-+Centro%2C+Mau%C3%A1+-+SP!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr
+
+─── SEÇÃO: CTA BANNER ─────────────────────────────────────────
+(Fundo dourado/creme)
+Label:    Comece hoje
+Título:   Dê o primeiro passo para uma vida sem dor
+Subtítulo: Avaliação gratuita · Sem encaminhamento médico · Resultado desde a 1ª sessão
+
+Botão 1:  Agendar via WhatsApp →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20minha%20avaliação%20gratuita%20na%20HC%20Pilates.
+
+Botão 2 (outline):  Ligar agora
+  Link: tel:+5511967608428
+
+
+================================================================
+PÁGINA 2 — PILATES (pilates.html)
+================================================================
+
+SEO
+────
+Title: Pilates Clínico – HC Pilates | Mauá e Santo André
+Meta description: Pilates clínico em Mauá e Santo André-SP. Solo, aparelhos e pilates terapêutico com fisioterapeuta especializada. HC Pilates – Cinthia Ravenne. Avaliação gratuita.
+
+─── SEÇÃO: HERO ───────────────────────────────────────────────
+Label:  HC Pilates · Mauá e Santo André
+Título: Pilates Clínico
+Lead:   Movimento terapêutico para reabilitação, postura e qualidade de vida — conduzido por fisioterapeuta especializada, adaptado à sua necessidade.
+
+Botão 1 (dourado):  Agendar aula experimental →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20aula%20experimental%20de%20Pilates%20na%20HC%20Pilates.
+
+Botão 2 (outline):  Conhecer as modalidades
+  Link: âncora #metodologia
+
+Imagem de fundo:  fotos/cinthia-pose-equilíbrio.jpg (position: top center)
+
+─── SEÇÃO: STATS STRIP ────────────────────────────────────────
+Número 1:  3      | Modalidades
+Número 2:  100%   | Individualizado
+Número 3:  Fisio  | Conduzido por fisioterapeuta
+Número 4:  +500   | Pacientes atendidos
+
+─── SEÇÃO: O QUE É PILATES CLÍNICO ────────────────────────────
+(Split: texto esquerda / foto direita)
+Label:  O método
+Título: Pilates Clínico: movimento com propósito
+
+Parágrafo 1:
+O Pilates Clínico é uma abordagem terapêutica do método Pilates, voltada para a reabilitação, prevenção de lesões e melhora da qualidade de vida. Diferente do Pilates convencional praticado em academias, o Pilates Clínico é conduzido por um fisioterapeuta e adaptado à necessidade individual de cada paciente.
+
+Parágrafo 2:
+Na HC Pilates, cada sessão começa com uma avaliação do seu estado físico naquele dia — os exercícios são escolhidos e adaptados especificamente para você, garantindo segurança e resultado em cada aula.
+
+Destaque (caixa dourada):
+  Título:  A diferença que importa:
+  Texto:   No Pilates Clínico, você não é mais um aluno numa turma — você é um paciente com um plano de exercícios personalizado, supervisionado por quem entende do seu corpo.
+
+Imagem:  fotos/cinthia-pose-barco-pb.jpg
+
+─── SEÇÃO: MODALIDADES ────────────────────────────────────────
+(Fundo marrom escuro)
+Label:  Modalidades
+Título: Escolha sua prática
+Subtítulo: Trabalhamos com três modalidades de Pilates, sempre orientadas por fisioterapeuta e adaptadas ao seu objetivo e condição física.
+
+CARD 01 — Pilates Solo
+  Imagem:  fotos/cinthia-03.jpg
+  Número:  01
+  Título:  Pilates Solo
+  Texto:   Exercícios no colchonete que trabalham o fortalecimento global, controle respiratório e consciência corporal. Ideal para iniciantes, bem-estar geral e como complemento ao Pilates em Aparelhos.
+
+CARD 02 — Pilates em Aparelhos
+  Imagem:  fotos/cinthia-04.jpg
+  Número:  02
+  Título:  Pilates em Aparelhos
+  Texto:   Uso do Reformer, Cadeira e outros equipamentos para maior amplitude de movimento, resistência progressiva e reabilitação ortopédica eficiente. Permite maior especificidade no tratamento.
+
+CARD 03 — Pilates Terapêutico
+  Imagem:  fotos/cinthia-06.jpg
+  Número:  03
+  Título:  Pilates Terapêutico
+  Texto:   Protocolo individualizado para pré e pós-operatório, dores crônicas, gestantes, idosos e condições específicas como hérnia de disco, escoliose e artrite. Totalmente personalizado.
+
+─── SEÇÃO: BENEFÍCIOS ─────────────────────────────────────────
+Label:  Resultados
+Título: O que o Pilates transforma
+
+Lista de 6 benefícios:
+
+1. 🦴 Alívio de Dores Crônicas
+   Reduz dores na coluna, joelhos e quadris com exercícios precisos e seguros, trabalhando a causa do desequilíbrio.
+
+2. ⚡ Fortalecimento Muscular
+   Fortalece o core e os grupos musculares profundos, estabilizando articulações e prevenindo lesões.
+
+3. 🧍 Correção Postural
+   Melhora o alinhamento postural, reduzindo sobrecargas na coluna e prevenindo lesões futuras no dia a dia.
+
+4. 🤸 Mobilidade e Flexibilidade
+   Aumenta a amplitude de movimento, alivia rigidez muscular e melhora a funcionalidade nas atividades cotidianas.
+
+5. 🧠 Equilíbrio e Coordenação
+   Desenvolve propriocepção, equilíbrio e coordenação motora — essencial para idosos e atletas em reabilitação.
+
+6. 😴 Qualidade de Vida
+   Reduz estresse, melhora a qualidade do sono e promove bem-estar global com a prática regular e orientada.
+
+─── SEÇÃO: PARA QUEM É ────────────────────────────────────────
+Label:  Indicações
+Título: Para quem é o Pilates Clínico?
+Subtítulo: O Pilates Clínico é indicado para pessoas em qualquer fase da vida e com objetivos variados — desde a reabilitação de lesões até a busca por mais qualidade de vida.
+
+Grid de 6 cards:
+
+1. 🦴 Dores na Coluna
+   Lombalgia, dor cervical, hérnia de disco, escoliose e desequilíbrios posturais que geram dor ou limitação de movimento.
+
+2. 🏥 Pós-operatório
+   Reabilitação após cirurgias ortopédicas, como joelho, quadril, ombro e coluna — acelerando a recuperação com segurança.
+
+3. 🤰 Gestantes
+   Em todas as fases da gestação (sem gestação de risco), com exercícios adaptados para a segurança da mãe e do bebê.
+
+4. 👴 Idosos
+   Manutenção da mobilidade, equilíbrio e independência funcional — com cuidados e adaptações específicas para cada caso.
+
+5. 🏃 Atletas
+   Prevenção de lesões, melhora do desempenho e reabilitação esportiva. O Pilates potencializa qualquer modalidade esportiva.
+
+6. ✨ Bem-estar Geral
+   Para quem busca mais energia, melhor postura, qualidade de sono e um corpo mais equilibrado no dia a dia.
+
+─── SEÇÃO: GALERIA ────────────────────────────────────────────
+Label:  Em prática
+Título: Cinthia Ravenne
+Fundo:  Marrom escuro
+
+Fotos:
+fotos/cinthia-08.jpg
+fotos/cinthia-09.jpg
+fotos/cinthia-pose-equilíbrio.jpg  (destaque)
+fotos/cinthia-10.jpg
+fotos/cinthia-11.jpg
+
+Botão:  Ver mais no @hc.pilates →
+  Link: https://www.instagram.com/hc.pilates/
+
+─── SEÇÃO: CTA BANNER ─────────────────────────────────────────
+Label:    Primeira aula
+Título:   Experimente o Pilates Clínico
+Subtítulo: Aula experimental gratuita · Avaliação individualizada · Sem compromisso
+
+Botão 1:  Agendar aula experimental →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20aula%20experimental%20de%20Pilates%20na%20HC%20Pilates.
+
+Botão 2:  Ver outros serviços
+  Link: / (home)
+
+
+================================================================
+PÁGINA 3 — FISIOTERAPIA (fisioterapia.html)
+================================================================
+
+SEO
+────
+Title: Fisioterapia – HC Pilates | Cinthia Ravenne · Mauá e Santo André
+Meta description: Fisioterapia ortopédica e postural em Mauá e Santo André-SP. Tratamento de dores na coluna, joelhos, ombros, pós-operatório e reabilitação com Cinthia Ravenne. HC Pilates.
+
+─── SEÇÃO: HERO ───────────────────────────────────────────────
+Label:  HC Pilates · Cinthia Ravenne
+Título: Fisioterapia Ortopédica
+Lead:   Tratamento de dores, lesões e desequilíbrios do movimento com avaliação individualizada — resolva a causa, não só o sintoma.
+
+Botão 1 (dourado):  Agendar avaliação gratuita →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20de%20Fisioterapia%20na%20HC%20Pilates.
+
+Botão 2 (outline):  Me identifico com os sintomas
+  Link: âncora #identifica
+
+Imagem de fundo:  fotos/cinthia-retrato-profissional.jpg
+
+─── SEÇÃO: STATS STRIP ────────────────────────────────────────
+Número 1:  Fisio  | Especialista Cinthia Ravenne
+Número 2:  +10    | Anos de experiência clínica
+Número 3:  100%   | Avaliação individualizada
+Número 4:  3      | Unidades em Mauá e Santo André
+
+─── SEÇÃO: VOCÊ SE IDENTIFICA? ────────────────────────────────
+(Split: checklist esquerda / foto + destaque direita)
+Label:  Você se identifica?
+Título: Está convivendo com uma dor que não passa?
+
+Lista de sintomas:
+→ Sente dor na coluna, pescoço ou ombros ao acordar ou no final do dia
+→ Já tomou remédio, descansou — mas a dor voltou igual ou pior
+→ A dor te impede de trabalhar, praticar exercícios ou fazer atividades simples
+→ Passou por médicos e exames, mas o tratamento não resolveu de vez
+→ Sente formigamento, pontadas ou limitação de movimento no dia a dia
+→ Está em recuperação após cirurgia ortopédica e quer voltar à vida normal
+→ Percebeu que sua postura piorou e isso está causando desconforto constante
+→ Te disseram para "aprender a conviver" — e você não aceita isso
+
+Caixa de destaque (callout):
+Se você se identificou com algum desses cenários, saiba que existe um caminho diferente. Um tratamento que vai além do alívio temporário e trata a origem do problema.
+
+Imagem:  fotos/cinthia-pose-equilíbrio.jpg
+
+Citação (sobre a foto / caixa marrom):
+"A fisioterapia eficaz não suprime a dor — ela entende por que o corpo dói e reequilibra o que estava fora de lugar."
+— Cinthia Ravenne, Fisioterapeuta
+
+─── SEÇÃO: POR QUE NÃO RESOLVE? ──────────────────────────────
+Label:  O problema por trás do problema
+Título: Por que os tratamentos comuns não resolvem?
+Subtítulo: A maioria das abordagens trata o sintoma — a dor. Mas enquanto a causa estrutural não for tratada, a dor retorna.
+
+4 cards:
+
+1. 💊 Remédios e anti-inflamatórios
+   Aliviam a dor temporariamente, mas não corrigem o desequilíbrio muscular, postural ou articular que gera o problema. Quando o efeito passa, a dor volta.
+
+2. 🛋️ Repouso prolongado
+   O descanso pode ajudar no curto prazo, mas sem reabilitação ativa, os músculos enfraquecem, as articulações perdem mobilidade e o ciclo de dor se repete.
+
+3. 🤖 Protocolos genéricos
+   Sessões em série com os mesmos aparelhos para todo mundo ignoram as particularidades do seu corpo, seu padrão de movimento e sua história de saúde.
+
+4. 📋 Falta de avaliação precisa
+   Sem identificar a origem real da disfunção — muscular, articular, postural ou neurológica — qualquer tratamento é uma tentativa no escuro.
+
+Destaque marrom (abaixo dos cards):
+  Citação: "Na HC Pilates, cada sessão começa pela avaliação — entendemos o que está desequilibrado no SEU corpo antes de traçar qualquer protocolo."
+  Botão: Quero minha avaliação →
+    Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20de%20Fisioterapia%20na%20HC%20Pilates.
+
+─── SEÇÃO: ÁREAS DE ATUAÇÃO ───────────────────────────────────
+(Fundo marrom escuro)
+Label:  Especialidades
+Título: Áreas de atuação
+Subtítulo: Tratamos as principais causas de dor e limitação de movimento com protocolos validados e abordagem individualizada.
+
+9 cards:
+
+1. 🦴 Coluna Vertebral
+   Lombalgia, cervicalgia, hérnia de disco, escoliose, espondilose. Tratamento que descomprime, reequilibra e fortalece.
+
+2. 🦵 Joelhos e Quadril
+   Condromalácia, lesão de menisco, bursite trocantérica, artrite e pós-operatório de prótese ou artroscopia.
+
+3. 💪 Ombros e Cotovelos
+   Tendinite, síndrome do impacto, lesão de manguito rotador, epicondilite (cotovelo de tenista/golfista).
+
+4. 🦶 Tornozelos e Pés
+   Fasciíte plantar, entorse de tornozelo, tendinite de Aquiles e desequilíbrios que afetam toda a cadeia postural.
+
+5. 🧍 Postura e Desequilíbrios
+   Hipercifose, hiperlordose, discrepância de membros, sobrecarga cruzada e desequilíbrios musculares crônicos.
+
+6. 🏥 Pós-operatório
+   Reabilitação após cirurgias ortopédicas: joelho, quadril, ombro, coluna — acelerando a recuperação com segurança.
+
+7. 🤰 Gestantes e Pós-parto
+   Alívio das dores musculoesqueléticas da gravidez e recuperação funcional do assoalho pélvico após o parto.
+
+8. 👴 Saúde do Idoso
+   Manutenção da mobilidade, equilíbrio e força para prevenir quedas e garantir independência funcional.
+
+9. 🏃 Lesões Esportivas
+   Reabilitação e retorno ao esporte com segurança — para atletas amadores e profissionais de qualquer modalidade.
+
+─── SEÇÃO: PROTOCOLO ──────────────────────────────────────────
+Label:  Como funciona
+Título: Nosso protocolo de tratamento
+Subtítulo: Um método estruturado em etapas claras — do diagnóstico funcional ao resultado duradouro.
+
+3 passos:
+
+01 — Avaliação Funcional Completa
+A primeira sessão é dedicada a entender você: sua história de dor, exames, padrão de movimento e compensações. Sem avaliação não existe tratamento eficaz — aqui, não pulamos essa etapa.
+
+02 — Protocolo Individualizado
+Com base na avaliação, montamos um plano de tratamento específico para o seu caso. Técnicas manuais, exercícios terapêuticos e, quando indicado, integração com Pilates Clínico para potencializar os resultados.
+
+03 — Reavaliação e Progressão
+Ao longo do tratamento, o protocolo evolui conforme sua melhora. Acompanhamos cada etapa, ajustamos o que for necessário e só encerramos quando você retoma sua qualidade de vida com segurança.
+
+Caixa abaixo dos passos (2 colunas):
+
+Coluna 1 — Técnicas utilizadas:
+✓ Terapia manual e mobilização articular
+✓ Exercícios terapêuticos e cinesioterapia
+✓ Pilates Clínico integrado à reabilitação
+✓ Eletroterapia e recursos físicos
+
+Coluna 2 — Diferenciais HC Pilates:
+✓ Atendimento conduzido por fisioterapeuta
+✓ Sessões individuais — não é academia
+✓ Integração entre fisioterapia e Pilates
+✓ Acompanhamento de evolução por sessão
+
+─── SEÇÃO: SOBRE CINTHIA ──────────────────────────────────────
+(Split: foto esquerda / texto fundo marrom direita)
+Label:  A especialista
+Título: Cinthia Ravenne
+
+Parágrafo 1:
+Fisioterapeuta com formação sólida em reabilitação ortopédica, Pilates Clínico e DTM — Cinthia Ravenne acredita que o tratamento só é completo quando o paciente entende o que acontece no próprio corpo e retoma o controle da sua saúde.
+
+Parágrafo 2:
+À frente da HC Pilates, ela une a precisão técnica da fisioterapia com o método Pilates Clínico para oferecer um cuidado verdadeiramente integrado — das dores musculares à disfunção da mandíbula.
+
+Credenciais:
+✓ Especialista em Fisioterapia Ortopédica e Postural
+✓ Pilates Clínico com enfoque terapêutico e reabilitação
+✓ Especialista em DTM, ATM, Bruxismo e Dor Orofacial
+✓ +500 pacientes tratados em Mauá e Santo André
+
+Botão 1:  Agendar com Cinthia →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20de%20Fisioterapia%20com%20a%20Cinthia%20Ravenne.
+
+Botão 2:  @fisioravenne
+  Link: https://www.instagram.com/fisioravenne/
+
+Imagem:  fotos/cinthia-01.jpg
+
+─── SEÇÃO: FAQ ────────────────────────────────────────────────
+Label:  Dúvidas frequentes
+Título: Perguntas sobre Fisioterapia
+
+P1: Preciso de encaminhamento médico para fazer fisioterapia?
+R: Não é obrigatório para consulta particular. Você pode agendar sua avaliação diretamente na HC Pilates. Se você for utilizar convênio, verifique com a sua operadora de saúde se há necessidade de guia de encaminhamento.
+
+P2: Quantas sessões vou precisar?
+R: Depende da condição tratada, da cronicidade da dor e da resposta individual de cada paciente. Na avaliação inicial, Cinthia faz uma estimativa realista do número de sessões necessárias. Em média, casos agudos evoluem em 4 a 8 sessões; condições crônicas podem exigir protocolos mais longos e integração com Pilates Clínico.
+
+P3: Fisioterapia e Pilates Clínico são a mesma coisa?
+R: Não — mas se complementam. A fisioterapia ortopédica atua na fase aguda e no diagnóstico funcional, usando técnicas manuais e exercícios terapêuticos direcionados. O Pilates Clínico é ideal para a fase de fortalecimento, manutenção e prevenção. Na HC Pilates, a integração entre os dois é um dos nossos grandes diferenciais.
+
+P4: A fisioterapia pode substituir uma cirurgia?
+R: Em muitos casos, sim. Condições como hérnia de disco, tendinites e lesões de manguito rotador frequentemente respondem muito bem ao tratamento conservador (sem cirurgia). A decisão é sempre compartilhada com o médico responsável — e nossa abordagem é sempre tentar o tratamento conservador antes de indicar procedimentos invasivos.
+
+P5: Posso fazer fisioterapia durante a gravidez?
+R: Sim! A fisioterapia é muito indicada durante a gestação para tratar dores lombares, ciatalgia, dores pélvicas e preparar o corpo para o parto. As técnicas são adaptadas para garantir a segurança da mãe e do bebê em todas as fases da gestação.
+
+P6: A primeira consulta é paga?
+R: A avaliação inicial na HC Pilates é gratuita e sem compromisso. Queremos que você conheça nossa proposta, entenda o seu caso com clareza e tome a decisão de tratamento com segurança — sem pressão.
+
+P7: Vocês atendem convênio?
+R: Entre em contato pelo WhatsApp para verificar os convênios disponíveis em cada unidade. Trabalhamos tanto com planos de saúde quanto com atendimento particular, com planos de sessões e condições especiais para tratamentos prolongados.
+
+─── SEÇÃO: CTA BANNER ─────────────────────────────────────────
+Label:    Avaliação gratuita
+Título:   Chega de conviver com a dor
+Subtítulo: Avaliação gratuita · Protocolo individualizado · Resultado duradouro
+
+Botão 1:  Agendar minha avaliação →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20gratuita%20de%20Fisioterapia%20na%20HC%20Pilates.
+
+Botão 2:  Ver outros serviços
+  Link: / (home)
+
+
+================================================================
+PÁGINA 4 — DTM & ATM (dtm-atm.html)
+================================================================
+
+SEO
+────
+Title: DTM & ATM – Cinthia Ravenne | HC Pilates Mauá e Santo André
+Meta description: Tratamento especializado de DTM (Disfunção Temporomandibular), ATM, Bruxismo e Dor Orofacial com Cinthia Ravenne. HC Pilates – Mauá e Santo André SP. Avaliação gratuita.
+
+─── SEÇÃO: HERO ───────────────────────────────────────────────
+Label:  Especialidade · Cinthia Ravenne
+Título: DTM, ATM e Bruxismo
+Lead:   Tratamento especializado da disfunção temporomandibular, bruxismo e dor orofacial — com abordagem que resolve a causa, não apenas o sintoma.
+
+Botão 1 (dourado):  Agendar avaliação de ATM / DTM →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avaliação%20especializada%20na%20HC%20Pilates.
+
+Botão 2 (outline):  Me identifico com os sintomas
+  Link: âncora #identifica
+
+Imagem de fundo:  fotos/cinthia-retrato-profissional.jpg
+
+─── SEÇÃO: VOCÊ SE IDENTIFICA? ────────────────────────────────
+(Split: checklist esquerda / info box direita)
+Label:  Você se identifica?
+Título: Acorda com dor e já começa o dia no limite?
+
+Lista (coluna esquerda):
+→ Acorda com dor e já começa o dia no limite
+→ Tomou remédio, fez repouso, mas a dor voltou
+→ A dor está te impedindo de trabalhar, praticar esportes ou curtir sua família
+→ Já fez tratamentos mas não resolveu de vez
+→ Te disseram que "é coisa do estresse" ou "vai ter que conviver"
+→ Sente cliques, estalo ou travamento na mandíbula
+→ Dores de cabeça frequentes, especialmente ao acordar
+→ Dor de ouvido sem infecção diagnosticada
+
+Callout:
+Se você se identificou com alguma dessas situações, saiba que existe um caminho diferente. Um tratamento que não mascara a dor, mas resolve a origem dela.
+
+Botão:  Quero resolver de vez →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Me%20identifiquei%20com%20os%20sintomas%20de%20DTM%20no%20site.%20Quero%20agendar%20uma%20avaliação.
+
+Info box (coluna direita — "O que é a DTM?"):
+  Título:  O que é a DTM?
+  Texto:   A Disfunção Temporomandibular é uma condição que afeta a articulação temporomandibular (ATM) — a "dobradiça" que conecta a mandíbula ao crânio — e os músculos ao redor. Estima-se que entre 40% e 60% da população apresente algum sinal de DTM ao longo da vida, sendo frequentemente subdiagnosticada e confundida com enxaqueca ou dor de ouvido.
+
+  Label:  Sintomas comuns
+  Lista:
+  • Dor ou sensibilidade na mandíbula, rosto ou têmporas
+  • Dificuldade para abrir ou fechar a boca completamente
+  • Estalos ou crepitação ao mastigar ou bocejar
+  • Dores de cabeça frequentes, especialmente ao acordar
+  • Dor de ouvido sem infecção diagnosticada
+  • Travamento da mandíbula
+  • Sensação de cansaço muscular no rosto
+  • Dor cervical e tensão no pescoço
+  • Sensibilidade dentária sem causa aparente
+
+─── SEÇÃO: POR QUE NÃO RESOLVE? ──────────────────────────────
+Label:  A diferença do nosso tratamento
+Título: Por que tantos tratamentos não resolvem?
+Subtítulo: A maioria dos tratamentos foca em onde dói. O problema é que o corpo humano é um sistema interligado — e a dor raramente está exatamente onde o problema está.
+
+Card 1 — O sintoma não é a causa
+  Dores crônicas quase sempre têm uma causa que nunca foi tratada de verdade. Uma dor na mandíbula pode estar sendo gerada por desequilíbrios musculares na cervical. Tratar o sintoma sem entender a causa é a principal razão pela qual muitos pacientes ficam meses em tratamento sem evolução real.
+
+Card 2 — Nossa abordagem
+  Na HC Pilates, fazemos uma avaliação completa para entender não apenas onde dói, mas o que está causando a dor: qual estrutura, qual sistema, qual padrão de compensação está gerando a sobrecarga. Só assim o tratamento resolve de verdade — e os resultados são duradouros.
+
+Sub-seção: Dor Orofacial — "Quando a mandíbula afeta o corpo todo"
+  Texto: A dor orofacial engloba qualquer dor na região da boca, face, cabeça e pescoço de origem músculo-esquelética. Causas mais comuns:
+  • Tensão muscular crônica por estresse e ansiedade
+  • Bruxismo (ranger ou apertar os dentes)
+  • Má oclusão dentária
+  • Trauma facial ou dentário
+  • Artrite na ATM
+  • Neuralgia do Trigêmeo
+  • Disfunção cervical associada
+
+  Citação (caixa dourada):
+  "O diagnóstico preciso é o ponto de partida de um tratamento que funciona de verdade."
+  — Cinthia Ravenne, Fisioterapeuta
+
+─── SEÇÃO: PROTOCOLO DTM ──────────────────────────────────────
+(Fundo marrom escuro)
+Label:  Como funciona
+Título: Protocolo de Tratamento para ATM / DTM
+Subtítulo: Multidisciplinar, individualizado e baseado em evidências científicas. Já na primeira sessão, iniciamos o alívio dos sintomas.
+
+Passo 1 — Avaliação Completa
+  Anamnese detalhada, palpação muscular e articular, análise da abertura bucal e padrão de movimento mandibular. O objetivo é entender não apenas onde dói, mas o que está causando a dor.
+  Meta: ⏱ Duração: 90 minutos
+
+Passo 2 — Tratamento Imediato
+  Ainda na primeira sessão, já iniciamos. Terapia manual para mobilização articular, liberação miofascial e agulhamento seco (dry needling) quando indicado. A maioria dos pacientes sai com redução dos sintomas.
+  Meta: ✓ Resultado desde a 1ª sessão
+
+Passo 3 — Plano Personalizado
+  Ao final da avaliação, você recebe o prognóstico completo: quantas sessões, qual frequência, exercícios para fazer em casa e orientações sobre hábitos posturais e manejo do estresse.
+  Meta: 📋 Plano claro desde o início
+
+Passo 4 — Exercícios e Reeducação
+  Protocolo específico de exercícios para reequilíbrio muscular, fortalecimento e reeducação do padrão mandibular. Você continua avançando entre as sessões.
+
+Passo 5 — Integração Multidisciplinar
+  Quando necessário, trabalhamos em conjunto com dentistas e psicólogos. O Pilates pode complementar o tratamento da DTM trabalhando postura e tensão global.
+
+Botões:
+  Agendar avaliação de ATM / DTM →
+    Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avaliação%20especializada%20na%20HC%20Pilates.
+  Tirar dúvidas
+    Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dúvidas%20sobre%20o%20tratamento%20de%20DTM%20na%20HC%20Pilates.
+
+─── SEÇÃO: BRUXISMO ───────────────────────────────────────────
+Label:  Bruxismo
+Título: Mais do que ranger os dentes
+
+Texto coluna esquerda:
+O bruxismo é o hábito involuntário de ranger ou apertar os dentes, que pode ocorrer durante o sono (bruxismo do sono) ou durante o dia (bruxismo em vigília). Estima-se que 8% a 31% dos adultos sejam afetados.
+
+O estresse e a ansiedade são fatores desencadeantes e mantenedores importantes. Sem tratamento, o bruxismo pode causar danos sérios à saúde bucal, muscular e articular.
+
+Sinais de que você pode ter Bruxismo (tags/pílulas):
+  Dentes desgastados | Dor ao acordar | Dor de cabeça matinal | Sensibilidade dentária | Dor na mandíbula | Tensão nos músculos faciais | Sono agitado | Tensão cervical
+
+Botão:  Tratar bruxismo →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Acredito%20que%20tenho%20bruxismo.%20Quero%20agendar%20uma%20avaliação%20na%20HC%20Pilates.
+
+Como tratamos o Bruxismo (caixa direita):
+  Título:  Como tratamos o Bruxismo
+
+  1. 🔍 Diagnóstico Diferencial
+     Avaliação para identificar o tipo, a gravidade e os fatores associados ao bruxismo, diferenciando de outras causas de dor orofacial.
+
+  2. 🖐️ Fisioterapia Especializada
+     Terapia manual para alívio da tensão muscular, liberação miofascial e mobilização da ATM.
+
+  3. 🧘 Exercícios e Reeducação
+     Protocolo específico para relaxamento e reequilíbrio muscular da face, mandíbula e cervical.
+
+  4. 💬 Trabalho Interdisciplinar
+     Quando necessário, indicamos e trabalhamos com dentistas e psicólogos para resultado completo.
+
+─── SEÇÃO: SOBRE CINTHIA ──────────────────────────────────────
+(Split: foto esquerda / texto direita)
+Label:  Especialista
+Título: Cinthia Ravenne
+
+Parágrafo 1:
+Fisioterapeuta especializada em Pilates Clínico e Disfunção Temporomandibular, Cinthia construiu sua carreira com foco em um tratamento que vai além do sintoma — buscando sempre a causa real do problema.
+
+Parágrafo 2:
+Com atendimento humanizado e individualizado, ela acredita que cada paciente merece um olhar único, um plano exclusivo e atenção em cada detalhe do tratamento.
+
+Credenciais:
+• Fisioterapeuta especializada em DTM e Dor Orofacial
+• Formação avançada em terapia manual e ATM
+• Experiência com bruxismo, neuralgia e disfunção cervical
+• Trabalho interdisciplinar com dentistas e psicólogos
+
+Botão 1:  Falar com a Cinthia →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20falar%20com%20a%20Cinthia%20Ravenne%20sobre%20o%20tratamento%20de%20DTM.
+
+Botão 2:  @fisioravenne
+  Link: https://www.instagram.com/fisioravenne/
+
+Imagem:  fotos/cinthia-retrato-profissional.jpg
+
+─── SEÇÃO: FAQ ────────────────────────────────────────────────
+Label:  Dúvidas frequentes
+Título: Perguntas sobre DTM e ATM
+
+P1: Preciso de encaminhamento médico?
+R: Não. Você pode agendar diretamente, sem nenhuma solicitação médica. Basta entrar em contato e marcar sua avaliação.
+
+P2: Em quanto tempo vou sentir melhora?
+R: Trabalhamos para que você já saia da primeira consulta com redução dos sintomas. O número de sessões é definido na própria avaliação, de acordo com o seu caso.
+
+P3: O tratamento dói?
+R: Algumas técnicas musculares podem gerar leve desconforto, mas o tratamento não causa dor. O conforto do paciente é nossa prioridade em todas as sessões.
+
+P4: Os resultados são duradouros?
+R: Sim. Tratamos a causa do problema, não apenas o sintoma. Os resultados tendem a ser duradouros, especialmente seguindo as orientações e exercícios indicados para o seu caso.
+
+P5: Vocês aceitam convênio?
+R: Não trabalhamos com convênios. Mas emitimos nota fiscal para todos os atendimentos, que pode ser usada para reembolso no seu plano de saúde.
+
+P6: Quais formas de pagamento aceitam?
+R: Aceitamos dinheiro, Pix e cartão. Planos de tratamento podem ser parcelados no cartão.
+
+P7: O tratamento de DTM se relaciona com o Pilates?
+R: Sim! A DTM frequentemente tem relação com a postura global. O Pilates pode ser um complemento importante no tratamento, trabalhando a musculatura cervical, postura e redução da tensão corporal — sempre de forma integrada com o tratamento da ATM.
+
+P8: Preciso levar exames?
+R: Não é obrigatório. Mas se você tiver exames como radiografias, tomografias ou laudos odontológicos, pode trazer — toda informação ajuda na avaliação e no planejamento do tratamento.
+
+─── SEÇÃO: CTA BANNER ─────────────────────────────────────────
+Label:    Sem compromisso
+Título:   Pronto para viver sem dor?
+Subtítulo: Avaliação gratuita · Resultado desde a 1ª sessão · Sem encaminhamento médico
+
+Botão 1:  Agendar avaliação ATM / DTM →
+  Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avaliação%20especializada%20na%20HC%20Pilates.
+
+Botão 2:  Ver outros serviços
+  Link: / (home)
+
+
+================================================================
+RODAPÉ — FOOTER (igual em todas as páginas)
+================================================================
+
+Coluna 1 — Marca
+  HC PILATES
+  Equilíbrio e Bem-Estar
+  Texto: Pilates Clínico, Fisioterapia e DTM em Mauá e Santo André – SP. Cuidado humanizado e resultado real desde a primeira sessão.
+
+Coluna 2 — Serviços
+  Pilates Clínico         → /pilates
+  Pilates em Aparelhos    → /pilates
+  Fisioterapia            → /fisioterapia
+  DTM & ATM               → /dtm-atm
+  Bruxismo                → /dtm-atm
+  Dor Orofacial           → /dtm-atm
+
+Coluna 3 — Unidades
+  Shopping Mauá           → âncora unidades
+  Jardim Haydee – Mauá    → âncora unidades
+  Santo André – SP         → âncora unidades
+
+Coluna 4 — Contato
+  (11) 96760-8428         → https://api.whatsapp.com/send/?phone=5511967608428
+  @hc.pilates             → https://www.instagram.com/hc.pilates/
+  @fisioravenne           → https://www.instagram.com/fisioravenne/
+
+Copyright: © 2025 HC Pilates – Equilíbrio e Bem-Estar. Desenvolvido por EXP Digital
+
+
+================================================================
+BOTÃO FLUTUANTE WHATSAPP (em todas as páginas)
+================================================================
+Link: https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Vim%20pelo%20site%20HC%20Pilates.
+Ícone: SVG WhatsApp (branco sobre fundo verde #25D366)
+Posição: canto inferior direito, fixo na tela
+
+
+================================================================
+LISTA DE TODAS AS IMAGENS USADAS
+================================================================
+fotos/cinthia-pose-equilíbrio.jpg      → Hero home, seção pilates, fisio
+fotos/cinthia-pose-barco-pb.jpg        → Card pilates, seção o método
+fotos/cinthia-retrato-profissional.jpg → Card DTM, sobre, hero fisio/DTM
+fotos/cinthia-01.jpg                   → Galeria, sobre fisioterapia
+fotos/cinthia-02.jpg                   → Galeria
+fotos/cinthia-03.jpg                   → Galeria, card Pilates Solo
+fotos/cinthia-04.jpg                   → Galeria, card Pilates Aparelhos
+fotos/cinthia-05.jpg                   → Galeria (destaque largo)
+fotos/cinthia-06.jpg                   → Galeria, card Pilates Terapêutico
+fotos/cinthia-07.jpg                   → Card fisioterapia home
+fotos/cinthia-08.jpg                   → Galeria pilates
+fotos/cinthia-09.jpg                   → Galeria pilates
+fotos/cinthia-10.jpg                   → Galeria pilates
+fotos/cinthia-11.jpg                   → Galeria pilates

@@ -1,0 +1,354 @@
+{
+  "version": "0.4",
+  "title": "HC Pilates – Home",
+  "type": "page",
+  "content": [
+    {
+      "id": "s1000001",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#F8F3EC",
+        "padding": { "unit": "px", "top": "100", "right": "40", "bottom": "100", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c1000001",
+          "elType": "column",
+          "settings": { "_column_size": 50, "padding": { "unit": "px", "top": "0", "right": "60", "bottom": "0", "left": "0", "isLinked": false } },
+          "elements": [
+            {
+              "id": "w1000001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8B6914;background:#F5EDD6;border:1px solid #D4B278;display:inline-block;padding:5px 16px;border-radius:20px;'>3 Unidades · Mauá &amp; Santo André – SP</p>" },
+              "elements": []
+            },
+            {
+              "id": "w1000002",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Equilíbrio e <em>Bem-Estar</em> que você merece", "header_size": "h1", "title_color": "#3B2A1E", "align": "left", "typography_typography": "custom", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 52 }, "typography_font_weight": "400" },
+              "elements": []
+            },
+            {
+              "id": "w1000003",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style='font-size:1.02rem;color:#5C4A3A;line-height:1.8;'>Pilates clínico, Fisioterapia especializada e tratamento de DTM — com cuidado humanizado e resultado desde a primeira sessão.</p>" },
+              "elements": []
+            },
+            {
+              "id": "w1000004",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": { "text": "Avaliação gratuita →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20gratuita%20na%20HC%20Pilates.", "is_external": true }, "button_text_color": "#C9A870", "background_color": "#3B2A1E", "border_radius": { "unit": "px", "top": "4", "right": "4", "bottom": "4", "left": "4", "isLinked": true }, "align": "left" },
+              "elements": []
+            },
+            {
+              "id": "w1000005",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  { "_id": "il001", "text": "Shopping Mauá – Av. Gov. Mario Covas Jr., 01 · Centro", "link": { "url": "" }, "icon": { "value": "fas fa-circle", "library": "solid" } },
+                  { "_id": "il002", "text": "Jardim Haydee – Mauá", "link": { "url": "" }, "icon": { "value": "fas fa-circle", "library": "solid" } },
+                  { "_id": "il003", "text": "Av. Portugal – Santo André", "link": { "url": "" }, "icon": { "value": "fas fa-circle", "library": "solid" } }
+                ],
+                "icon_color": "#C9A870",
+                "text_color": "#7A6050",
+                "icon_size": { "unit": "px", "size": 6 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c1000002",
+          "elType": "column",
+          "settings": { "_column_size": 50, "background_background": "classic", "background_color": "#3B2A1E" },
+          "elements": [
+            {
+              "id": "w1000006",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": { "image": { "url": "", "id": "" }, "image_size": "full", "caption_source": "none", "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1000002",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#3B2A1E",
+        "padding": { "unit": "px", "top": "40", "right": "40", "bottom": "40", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c2000001",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "w2000001", "elType": "widget", "widgetType": "heading", "settings": { "title": "3", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w2000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "Unidades", "header_size": "h5", "title_color": "#FFFFFF", "align": "center", "typography_font_size": { "unit": "px", "size": 13 } }, "elements": [] }
+          ]
+        },
+        {
+          "id": "c2000002",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "w2000003", "elType": "widget", "widgetType": "heading", "settings": { "title": "+500", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w2000004", "elType": "widget", "widgetType": "heading", "settings": { "title": "Pacientes atendidos", "header_size": "h5", "title_color": "#FFFFFF", "align": "center", "typography_font_size": { "unit": "px", "size": 13 } }, "elements": [] }
+          ]
+        },
+        {
+          "id": "c2000003",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "w2000005", "elType": "widget", "widgetType": "heading", "settings": { "title": "5★", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w2000006", "elType": "widget", "widgetType": "heading", "settings": { "title": "Avaliação Google", "header_size": "h5", "title_color": "#FFFFFF", "align": "center", "typography_font_size": { "unit": "px", "size": 13 } }, "elements": [] }
+          ]
+        },
+        {
+          "id": "c2000004",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "w2000007", "elType": "widget", "widgetType": "heading", "settings": { "title": "1ª", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w2000008", "elType": "widget", "widgetType": "heading", "settings": { "title": "Sessão com resultado", "header_size": "h5", "title_color": "#FFFFFF", "align": "center", "typography_font_size": { "unit": "px", "size": 13 } }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1000003",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F2EDE5",
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c3000001",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "w3000001", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>O que fazemos</p>", "align": "center" }, "elements": [] },
+            { "id": "w3000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "Escolha o seu serviço", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w3000003", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "gap": { "unit": "px", "size": 20 }, "width": { "unit": "%", "size": 5 }, "align": "center" }, "elements": [] },
+            { "id": "w3000004", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;max-width:600px;margin:0 auto;'>Cada serviço tem uma página dedicada com tudo que você precisa saber — metodologia, benefícios e como agendar.</p>" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1000004",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F2EDE5",
+        "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c4000001",
+          "elType": "column",
+          "settings": { "_column_size": 33 },
+          "elements": [
+            { "id": "w4000001", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full", "link_to": "custom", "link": { "url": "/pilates" } }, "elements": [] },
+            { "id": "w4000002", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#C9A870;'>Reabilitação &amp; Bem-Estar</p>" }, "elements": [] },
+            { "id": "w4000003", "elType": "widget", "widgetType": "heading", "settings": { "title": "01 — Pilates Clínico", "header_size": "h3", "title_color": "#3B2A1E" }, "elements": [] },
+            { "id": "w4000004", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Movimento terapêutico para reabilitação, postura e qualidade de vida. Solo e aparelhos.</p>" }, "elements": [] },
+            { "id": "w4000005", "elType": "widget", "widgetType": "button", "settings": { "text": "Conhecer →", "link": { "url": "/pilates" }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "c4000002",
+          "elType": "column",
+          "settings": { "_column_size": 33 },
+          "elements": [
+            { "id": "w4000006", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full", "link_to": "custom", "link": { "url": "/fisioterapia" } }, "elements": [] },
+            { "id": "w4000007", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#C9A870;'>Tratamento da Origem</p>" }, "elements": [] },
+            { "id": "w4000008", "elType": "widget", "widgetType": "heading", "settings": { "title": "02 — Fisioterapia", "header_size": "h3", "title_color": "#3B2A1E" }, "elements": [] },
+            { "id": "w4000009", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Tratamento que resolve a causa da dor — não apenas o sintoma — com resultado desde a 1ª sessão.</p>" }, "elements": [] },
+            { "id": "w4000010", "elType": "widget", "widgetType": "button", "settings": { "text": "Conhecer →", "link": { "url": "/fisioterapia" }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "c4000003",
+          "elType": "column",
+          "settings": { "_column_size": 33 },
+          "elements": [
+            { "id": "w4000011", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full", "link_to": "custom", "link": { "url": "/dtm-atm" } }, "elements": [] },
+            { "id": "w4000012", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#C9A870;'>Especialidade · Cinthia Ravenne</p>" }, "elements": [] },
+            { "id": "w4000013", "elType": "widget", "widgetType": "heading", "settings": { "title": "03 — DTM &amp; ATM", "header_size": "h3", "title_color": "#3B2A1E" }, "elements": [] },
+            { "id": "w4000014", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Especialidade em disfunção temporomandibular, bruxismo e dor orofacial.</p>" }, "elements": [] },
+            { "id": "w4000015", "elType": "widget", "widgetType": "button", "settings": { "text": "Conhecer →", "link": { "url": "/dtm-atm" }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1000005",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#3B2A1E"
+      },
+      "elements": [
+        {
+          "id": "c5000001",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "w5000001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": { "image": { "url": "" }, "image_size": "full", "caption_source": "none" },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c5000002",
+          "elType": "column",
+          "settings": { "_column_size": 50, "padding": { "unit": "px", "top": "60", "right": "60", "bottom": "60", "left": "60", "isLinked": false } },
+          "elements": [
+            { "id": "w5000002", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Quem somos</p>" }, "elements": [] },
+            { "id": "w5000003", "elType": "widget", "widgetType": "heading", "settings": { "title": "Cinthia Ravenne", "header_size": "h2", "title_color": "#FFFFFF", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w5000004", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "gap": { "unit": "px", "size": 20 }, "width": { "unit": "px", "size": 60 } }, "elements": [] },
+            { "id": "w5000005", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='color:rgba(255,255,255,.75);line-height:1.8;'>Fisioterapeuta especializada em Pilates Clínico e Disfunção Temporomandibular, Cinthia acredita que cada paciente merece um olhar único — e é assim que ela atua desde a primeira sessão.</p><p style='color:rgba(255,255,255,.75);line-height:1.8;margin-top:1rem;'>Com 3 unidades em Mauá e Santo André, a HC Pilates oferece um ambiente projetado para seu conforto e a tecnologia necessária para um atendimento de excelência.</p>" }, "elements": [] },
+            {
+              "id": "w5000006",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  { "_id": "ab01", "text": "Fisioterapeuta especializada em Pilates Clínico e Reabilitação", "icon": { "value": "fas fa-check", "library": "solid" } },
+                  { "_id": "ab02", "text": "Especialista em DTM, Bruxismo e Dor Orofacial", "icon": { "value": "fas fa-check", "library": "solid" } },
+                  { "_id": "ab03", "text": "Formação em Pilates Solo e Aparelhos em escola referência SP", "icon": { "value": "fas fa-check", "library": "solid" } },
+                  { "_id": "ab04", "text": "Atendimento individualizado com avaliação postural completa", "icon": { "value": "fas fa-check", "library": "solid" } },
+                  { "_id": "ab05", "text": "Experiência com gestantes, idosos e reabilitação pós-op", "icon": { "value": "fas fa-check", "library": "solid" } }
+                ],
+                "icon_color": "#C9A870",
+                "text_color": "rgba(255,255,255,.75)"
+              },
+              "elements": []
+            },
+            { "id": "w5000007", "elType": "widget", "widgetType": "button", "settings": { "text": "Falar com a Cinthia →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20HC%20Pilates%20com%20a%20Cinthia%20Ravenne.", "is_external": true }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1000006",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F8F3EC",
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c6000001",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "w6000001", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;text-align:center;'>Onde estamos</p>" }, "elements": [] },
+            { "id": "w6000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "Nossas Unidades", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w6000003", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "gap": { "unit": "px", "size": 20 }, "width": { "unit": "%", "size": 5 }, "align": "center" }, "elements": [] },
+            { "id": "w6000004", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;'>3 localidades para atender você perto de casa, com o mesmo padrão de excelência em todos os espaços.</p>" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1000007",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F8F3EC",
+        "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c7000001",
+          "elType": "column",
+          "settings": { "_column_size": 33, "border_border": "solid", "border_color": "#C9A870", "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true } },
+          "elements": [
+            { "id": "w7000001", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<span style='background:#C9A870;color:#3B2A1E;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:4px;'>Unidade Principal</span>" }, "elements": [] },
+            { "id": "w7000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "Shopping Mauá", "header_size": "h3", "title_color": "#3B2A1E" }, "elements": [] },
+            { "id": "w7000003", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>📍 <strong>Endereço</strong><br>Av. Gov. Mario Covas Júnior, 01<br>Centro – Mauá, SP · 09390-040</p><p style='margin-top:.8rem;'>🕐 <strong>Horário</strong><br>Segunda a Sexta: 8h às 20h</p><p style='margin-top:.8rem;'>🅿️ Valet + zona azul · Prédio acessível ♿</p>" }, "elements": [] },
+            { "id": "w7000004", "elType": "widget", "widgetType": "button", "settings": { "text": "Ver no mapa", "link": { "url": "https://www.google.com/maps?q=Av.+Gov.+Mario+Covas+J%C3%BAnior,+01+-+Centro,+Mau%C3%A1+-+SP,+09390-040", "is_external": true }, "background_color": "transparent", "button_text_color": "#3B2A1E", "border_color": "#3B2A1E", "border_width": { "unit": "px", "size": 1 }, "align": "left" }, "elements": [] },
+            { "id": "w7000005", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar aqui", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20na%20unidade%20Shopping%20Mau%C3%A1.", "is_external": true }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "c7000002",
+          "elType": "column",
+          "settings": { "_column_size": 33, "border_border": "solid", "border_color": "#D4C4A0", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true } },
+          "elements": [
+            { "id": "w7000006", "elType": "widget", "widgetType": "heading", "settings": { "title": "Jardim Haydee", "header_size": "h3", "title_color": "#3B2A1E" }, "elements": [] },
+            { "id": "w7000007", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>📍 <strong>Endereço</strong><br>Jardim Haydee – Mauá, SP</p><p style='margin-top:.8rem;'>🕐 <strong>Horário</strong><br>Segunda a Sexta: 8h às 20h</p>" }, "elements": [] },
+            { "id": "w7000008", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar aqui", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20na%20unidade%20Jardim%20Haydee%20-%20Mau%C3%A1.", "is_external": true }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "c7000003",
+          "elType": "column",
+          "settings": { "_column_size": 33, "border_border": "solid", "border_color": "#D4C4A0", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true } },
+          "elements": [
+            { "id": "w7000009", "elType": "widget", "widgetType": "heading", "settings": { "title": "Santo André", "header_size": "h3", "title_color": "#3B2A1E" }, "elements": [] },
+            { "id": "w7000010", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>📍 <strong>Endereço</strong><br>Av. Portugal – Santo André, SP</p><p style='margin-top:.8rem;'>🕐 <strong>Horário</strong><br>Segunda a Sexta: 8h às 20h</p>" }, "elements": [] },
+            { "id": "w7000011", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar aqui", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20na%20unidade%20de%20Santo%20Andr%C3%A9.", "is_external": true }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1000008",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#C9A870",
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c8000001",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "w8000001", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8B6914;text-align:center;'>Comece hoje</p>" }, "elements": [] },
+            { "id": "w8000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "Dê o primeiro passo para uma vida sem dor", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "w8000003", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;color:#5C4A2A;'>Avaliação gratuita · Sem encaminhamento médico · Resultado desde a 1ª sessão</p>" }, "elements": [] },
+            { "id": "w8000004", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar via WhatsApp →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20gratuita%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#3B2A1E", "button_text_color": "#C9A870", "align": "center" }, "elements": [] }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "post_title": "Home",
+    "hide_title": "yes"
+  }
+}

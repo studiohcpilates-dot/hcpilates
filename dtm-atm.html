@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DTM & ATM – Cinthia Ravenne | HC Pilates Mauá e Santo André</title>
+  <meta name="description" content="Tratamento especializado de DTM (Disfunção Temporomandibular), ATM, Bruxismo e Dor Orofacial com Cinthia Ravenne. HC Pilates – Mauá e Santo André SP. Avaliação gratuita."/>
+  <meta name="keywords" content="DTM mauá, ATM mauá, bruxismo mauá, dor orofacial mauá, fisioterapia temporomandibular, Cinthia Ravenne, DTM santo andré"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* DTM page specific */
+    .dtm-identify { background: var(--cream); }
+    .dtm-identify-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+    .dtm-why { background: #F2EDE5; }
+    .dtm-bruxismo { background: var(--white); }
+    .dtm-brux-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+    .dtm-about { background: var(--cream-dark); }
+    .dtm-about-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: stretch; }
+    .dtm-about-photo { background-size: cover; background-position: center top; min-height: 500px; }
+    .dtm-about-text { padding: 4rem 3.5rem; display: flex; flex-direction: column; justify-content: center; }
+    .orofacial-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; }
+    .extra-steps-grid { display:grid; grid-template-columns:1fr 1fr; gap:2rem; }
+    @media(max-width:900px) {
+      .dtm-identify-inner, .dtm-brux-inner, .dtm-about-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      .orofacial-grid, .extra-steps-grid { grid-template-columns:1fr; gap:1.5rem; }
+      .dtm-about-photo { min-height: 350px; }
+      .dtm-about-text { padding: 3rem 0; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav" class="nav--dark-init scrolled" style="background:rgba(248,243,236,.97);box-shadow:0 1px 0 var(--gold-light);">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/><path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/><path d="M30 44c0 0-8-8-8-16 0-5 3.5-8 8-8s8 3 8 8c0 8-8 16-8 16z" fill="#C9A870" opacity=".5"/><path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/><path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/><line x1="30" y1="45" x2="30" y2="52" stroke="#C9A870" stroke-width="1.5"/><line x1="26" y1="52" x2="34" y2="52" stroke="#C9A870" stroke-width="1.5"/></svg>
+      <div><span class="nav-logo-name">HC PILATES</span><span class="nav-logo-tag">Equilíbrio e Bem-Estar</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="pilates.html"      class="nav-link">Pilates</a></li>
+      <li><a href="fisioterapia.html" class="nav-link">Fisioterapia</a></li>
+      <li><a href="dtm-atm.html"      class="nav-link active">DTM & ATM</a></li>
+      <li><a href="index.html#sobre"  class="nav-link">Sobre</a></li>
+      <li><a href="index.html#unidades" class="nav-link">Unidades</a></li>
+    </ul>
+    <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avaliação%20especializada%20na%20HC%20Pilates." class="btn btn--dtm nav-cta">Agendar para ATM / DTM</a>
+    <button class="nav-hamburger" id="menuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="mobileMenu">
+  <button class="nav-mobile-close" id="menuClose">✕</button>
+  <a href="pilates.html" class="nav-link">Pilates</a>
+  <a href="fisioterapia.html" class="nav-link">Fisioterapia</a>
+  <a href="dtm-atm.html" class="nav-link">DTM & ATM</a>
+  <a href="index.html#sobre" class="nav-link">Sobre</a>
+  <a href="index.html#unidades" class="nav-link">Unidades</a>
+  <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20e%20quero%20agendar." class="btn btn--dtm">Agendar para ATM / DTM</a>
+</div>
+
+
+<!-- PAGE HERO -->
+<header class="page-hero">
+  <div class="page-hero__bg" style="background-image:url('fotos/cinthia-retrato-profissional.jpg'); background-position:center top;"></div>
+  <div class="page-hero__overlay"></div>
+  <div class="container">
+    <div class="page-hero__content">
+      <span class="label">Especialidade · Cinthia Ravenne</span>
+      <h1>DTM, ATM<br/>e Bruxismo</h1>
+      <p class="lead">Tratamento especializado da disfunção temporomandibular, bruxismo e dor orofacial — com abordagem que resolve a causa, não apenas o sintoma.</p>
+      <div class="page-hero__btns">
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avaliação%20especializada%20na%20HC%20Pilates." class="btn btn--gold">Agendar avaliação de ATM / DTM <span class="arr">→</span></a>
+        <a href="#identifica" class="btn btn--outline-white">Me identifico com os sintomas</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- VOCÊ SE IDENTIFICA? -->
+<section class="dtm-identify" id="identifica">
+  <div class="container">
+    <div class="dtm-identify-inner">
+      <div>
+        <span class="label">Você se identifica?</span>
+        <h2 style="color:var(--brown)">Acorda com dor e já começa o dia no limite?</h2>
+        <div class="divider"></div>
+        <div class="identify-list">
+          <div class="identify-item"><span>→</span> Acorda com dor e já começa o dia no limite</div>
+          <div class="identify-item"><span>→</span> Tomou remédio, fez repouso, mas a dor voltou</div>
+          <div class="identify-item"><span>→</span> A dor está te impedindo de trabalhar, praticar esportes ou curtir sua família</div>
+          <div class="identify-item"><span>→</span> Já fez tratamentos mas não resolveu de vez</div>
+          <div class="identify-item"><span>→</span> Te disseram que "é coisa do estresse" ou "vai ter que conviver"</div>
+          <div class="identify-item"><span>→</span> Sente cliques, estalo ou travamento na mandíbula</div>
+          <div class="identify-item"><span>→</span> Dores de cabeça frequentes, especialmente ao acordar</div>
+          <div class="identify-item"><span>→</span> Dor de ouvido sem infecção diagnosticada</div>
+        </div>
+        <div class="identify-callout">
+          <p>Se você se identificou com alguma dessas situações, saiba que existe um <strong>caminho diferente</strong>. Um tratamento que não mascara a dor, mas resolve a origem dela.</p>
+        </div>
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Me%20identifiquei%20com%20os%20sintomas%20de%20DTM%20no%20site.%20Quero%20agendar%20uma%20avaliação." class="btn btn--dark" style="margin-top:2rem;">Quero resolver de vez <span class="arr">→</span></a>
+      </div>
+      <div>
+        <div class="intro-banner">
+          <strong>O que é a DTM?</strong><br/>
+          A Disfunção Temporomandibular é uma condição que afeta a articulação temporomandibular (ATM) — a "dobradiça" que conecta a mandíbula ao crânio — e os músculos ao redor. Estima-se que <strong>entre 40% e 60% da população</strong> apresente algum sinal de DTM ao longo da vida, sendo frequentemente subdiagnosticada e confundida com enxaqueca ou dor de ouvido.
+        </div>
+        <div style="background:var(--gold-pale);border-radius:var(--radius);padding:2rem;margin-top:1.5rem;">
+          <span class="label" style="color:var(--brown-mid);">Sintomas comuns</span>
+          <ul class="symptom-list">
+            <li>Dor ou sensibilidade na mandíbula, rosto ou têmporas</li>
+            <li>Dificuldade para abrir ou fechar a boca completamente</li>
+            <li>Estalos ou crepitação ao mastigar ou bocejar</li>
+            <li>Dores de cabeça frequentes, especialmente ao acordar</li>
+            <li>Dor de ouvido sem infecção diagnosticada</li>
+            <li>Travamento da mandíbula</li>
+            <li>Sensação de cansaço muscular no rosto</li>
+            <li>Dor cervical e tensão no pescoço</li>
+            <li>Sensibilidade dentária sem causa aparente</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- POR QUE NÃO RESOLVE? -->
+<section class="dtm-why">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">A diferença do nosso tratamento</span>
+      <h2 style="color:var(--brown)">Por que tantos tratamentos não resolvem?</h2>
+      <div class="divider divider--center"></div>
+      <p>A maioria dos tratamentos foca em <strong>onde dói</strong>. O problema é que o corpo humano é um sistema interligado — e a dor raramente está exatamente onde o problema está.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <h3>O sintoma não é a causa</h3>
+        <p>Dores crônicas quase sempre têm uma causa que nunca foi tratada de verdade. Uma dor na mandíbula pode estar sendo gerada por desequilíbrios musculares na cervical. Tratar o sintoma sem entender a causa é a principal razão pela qual muitos pacientes ficam meses em tratamento sem evolução real.</p>
+      </div>
+      <div class="why-card">
+        <h3>Nossa abordagem</h3>
+        <p>Na HC Pilates, fazemos uma avaliação completa para entender não apenas onde dói, mas <strong>o que está causando a dor</strong>: qual estrutura, qual sistema, qual padrão de compensação está gerando a sobrecarga. Só assim o tratamento resolve de verdade — e os resultados são duradouros.</p>
+      </div>
+    </div>
+
+    <!-- O que é dor orofacial -->
+    <div style="background:var(--white);border-radius:var(--radius);padding:2.5rem;margin-top:2rem;box-shadow:var(--shadow-sm);">
+      <div class="orofacial-grid">
+        <div>
+          <span class="label">Dor Orofacial</span>
+          <h3 style="color:var(--brown);font-size:1.6rem;margin-bottom:1rem;">Quando a mandíbula afeta o corpo todo</h3>
+          <p style="font-size:.92rem;">A dor orofacial engloba qualquer dor na região da boca, face, cabeça e pescoço de origem músculo-esquelética. Causas mais comuns:</p>
+          <ul class="symptom-list" style="margin-top:1rem;">
+            <li>Tensão muscular crônica por estresse e ansiedade</li>
+            <li>Bruxismo (ranger ou apertar os dentes)</li>
+            <li>Má oclusão dentária</li>
+            <li>Trauma facial ou dentário</li>
+            <li>Artrite na ATM</li>
+            <li>Neuralgia do Trigêmeo</li>
+            <li>Disfunção cervical associada</li>
+          </ul>
+        </div>
+        <div style="background:var(--gold-pale);border-radius:var(--radius);padding:2rem;display:flex;flex-direction:column;justify-content:center;">
+          <p style="font-size:1.5rem;font-family:'Cormorant Garamond',serif;color:var(--brown);line-height:1.3;margin-bottom:1rem;">"O diagnóstico preciso é o ponto de partida de um tratamento que funciona de verdade."</p>
+          <span style="font-size:.8rem;color:var(--dtm);letter-spacing:.06em;">— Cinthia Ravenne, Fisioterapeuta</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROTOCOLO DE TRATAMENTO -->
+<section style="background:var(--brown);padding:6rem 0;">
+  <div class="container">
+    <div class="sec-header sec-header--center sec-header--white">
+      <span class="label">Como funciona</span>
+      <h2>Protocolo de Tratamento para ATM / DTM</h2>
+      <div class="divider divider--center divider--white"></div>
+      <p style="color:rgba(255,255,255,.6);">Multidisciplinar, individualizado e baseado em evidências científicas. Já na primeira sessão, iniciamos o alívio dos sintomas.</p>
+    </div>
+    <div class="steps-grid" style="margin-bottom:3rem;">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h3>Avaliação Completa</h3>
+        <p>Anamnese detalhada, palpação muscular e articular, análise da abertura bucal e padrão de movimento mandibular. O objetivo é entender não apenas onde dói, mas o que está causando a dor.</p>
+        <div class="step-meta">⏱ Duração: 90 minutos</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h3>Tratamento Imediato</h3>
+        <p>Ainda na primeira sessão, já iniciamos. Terapia manual para mobilização articular, liberação miofascial e agulhamento seco (dry needling) quando indicado. A maioria dos pacientes sai com redução dos sintomas.</p>
+        <div class="step-meta">✓ Resultado desde a 1ª sessão</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h3>Plano Personalizado</h3>
+        <p>Ao final da avaliação, você recebe o prognóstico completo: quantas sessões, qual frequência, exercícios para fazer em casa e orientações sobre hábitos posturais e manejo do estresse.</p>
+        <div class="step-meta">📋 Plano claro desde o início</div>
+      </div>
+    </div>
+    <!-- Extra steps -->
+    <div style="background:rgba(255,255,255,.05);border:1px solid rgba(201,168,112,.2);border-radius:var(--radius);padding:2.5rem;">
+      <div class="extra-steps-grid">
+        <div>
+          <span class="label">Passo 4</span>
+          <h4 style="color:var(--white);font-size:1.3rem;margin-bottom:.6rem;">Exercícios e Reeducação</h4>
+          <p style="color:rgba(255,255,255,.6);font-size:.9rem;">Protocolo específico de exercícios para reequilíbrio muscular, fortalecimento e reeducação do padrão mandibular. Você continua avançando entre as sessões.</p>
+        </div>
+        <div>
+          <span class="label">Passo 5</span>
+          <h4 style="color:var(--white);font-size:1.3rem;margin-bottom:.6rem;">Integração Multidisciplinar</h4>
+          <p style="color:rgba(255,255,255,.6);font-size:.9rem;">Quando necessário, trabalhamos em conjunto com dentistas e psicólogos. O Pilates pode complementar o tratamento da DTM trabalhando postura e tensão global.</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:3rem;display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
+      <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avaliação%20especializada%20na%20HC%20Pilates." class="btn btn--gold">Agendar avaliação de ATM / DTM <span class="arr">→</span></a>
+      <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dúvidas%20sobre%20o%20tratamento%20de%20DTM%20na%20HC%20Pilates." class="btn btn--outline-white">Tirar dúvidas</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- BRUXISMO -->
+<section class="dtm-bruxismo" id="bruxismo">
+  <div class="container">
+    <div class="sec-header">
+      <span class="label">Bruxismo</span>
+      <h2 style="color:var(--brown)">Mais do que ranger os dentes</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="dtm-brux-inner">
+      <div>
+        <p>O bruxismo é o hábito involuntário de ranger ou apertar os dentes, que pode ocorrer durante o sono (<em>bruxismo do sono</em>) ou durante o dia (<em>bruxismo em vigília</em>). Estima-se que <strong>8% a 31% dos adultos</strong> sejam afetados.</p>
+        <p style="margin-top:1rem;">O estresse e a ansiedade são fatores desencadeantes e mantenedores importantes. Sem tratamento, o bruxismo pode causar danos sérios à saúde bucal, muscular e articular.</p>
+        <h3 style="color:var(--brown);font-size:1.3rem;margin:2rem 0 .8rem;font-family:'Jost',sans-serif;font-weight:500;">Sinais de que você pode ter Bruxismo:</h3>
+        <div class="signs-grid">
+          <span class="sign-pill">Dentes desgastados</span>
+          <span class="sign-pill">Dor ao acordar</span>
+          <span class="sign-pill">Dor de cabeça matinal</span>
+          <span class="sign-pill">Sensibilidade dentária</span>
+          <span class="sign-pill">Dor na mandíbula</span>
+          <span class="sign-pill">Tensão nos músculos faciais</span>
+          <span class="sign-pill">Sono agitado</span>
+          <span class="sign-pill">Tensão cervical</span>
+        </div>
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Acredito%20que%20tenho%20bruxismo.%20Quero%20agendar%20uma%20avaliação%20na%20HC%20Pilates." class="btn btn--dark" style="margin-top:1.5rem;">Tratar bruxismo <span class="arr">→</span></a>
+      </div>
+      <div class="info-box">
+        <h3>Como tratamos o Bruxismo</h3>
+        <div class="info-step">
+          <div class="info-step-icon">🔍</div>
+          <div>
+            <h4>Diagnóstico Diferencial</h4>
+            <p>Avaliação para identificar o tipo, a gravidade e os fatores associados ao bruxismo, diferenciando de outras causas de dor orofacial.</p>
+          </div>
+        </div>
+        <div class="info-step">
+          <div class="info-step-icon">🖐️</div>
+          <div>
+            <h4>Fisioterapia Especializada</h4>
+            <p>Terapia manual para alívio da tensão muscular, liberação miofascial e mobilização da ATM.</p>
+          </div>
+        </div>
+        <div class="info-step">
+          <div class="info-step-icon">🧘</div>
+          <div>
+            <h4>Exercícios e Reeducação</h4>
+            <p>Protocolo específico para relaxamento e reequilíbrio muscular da face, mandíbula e cervical.</p>
+          </div>
+        </div>
+        <div class="info-step">
+          <div class="info-step-icon">💬</div>
+          <div>
+            <h4>Trabalho Interdisciplinar</h4>
+            <p>Quando necessário, indicamos e trabalhamos com dentistas e psicólogos para resultado completo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SOBRE CINTHIA RAVENNE -->
+<section class="dtm-about" id="sobre">
+  <div class="container" style="padding:0;max-width:100%;">
+    <div class="dtm-about-inner">
+      <div class="dtm-about-photo" style="background-image:url('fotos/cinthia-01.jpg');"></div>
+      <div class="dtm-about-text">
+        <span class="label">A especialista</span>
+        <h2 style="color:var(--brown);">Cinthia Ravenne</h2>
+        <div class="divider"></div>
+        <p>Fisioterapeuta com formação sólida em reabilitação ortopédica, Pilates Clínico e DTM — Cinthia Ravenne acredita que o tratamento só é completo quando o paciente entende o que acontece no próprio corpo e retoma o controle da sua saúde.</p>
+        <p style="margin-top:1rem;">À frente da HC Pilates, ela une a precisão técnica da fisioterapia com o método Pilates Clínico para oferecer um cuidado verdadeiramente integrado — das dores musculares à disfunção da mandíbula.</p>
+        <div class="about-split__creds" style="margin-top:1.5rem;">
+          <div class="cred" style="border-color:rgba(201,168,112,.2);">Especialista em Fisioterapia Ortopédica e Postural</div>
+          <div class="cred" style="border-color:rgba(201,168,112,.2);">Pilates Clínico com enfoque terapêutico e reabilitação</div>
+          <div class="cred" style="border-color:rgba(201,168,112,.2);">Especialista em DTM, ATM, Bruxismo e Dor Orofacial</div>
+          <div class="cred" style="border-color:rgba(201,168,112,.2);">+500 pacientes tratados em Mauá e Santo André</div>
+        </div>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem;">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20com%20a%20Cinthia%20Ravenne%20na%20HC%20Pilates." class="btn btn--dark">Agendar com Cinthia <span class="arr">→</span></a>
+          <a href="https://www.instagram.com/fisioravenne/" target="_blank" class="btn btn--outline">@fisioravenne</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FAQ -->
+<section style="background:var(--cream);">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">Dúvidas frequentes</span>
+      <h2 style="color:var(--brown);">Perguntas sobre DTM e ATM</h2>
+      <div class="divider divider--center"></div>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Preciso de encaminhamento médico? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Não. Você pode agendar diretamente, sem nenhuma solicitação médica. Basta entrar em contato e marcar sua avaliação.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Em quanto tempo vou sentir melhora? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Trabalhamos para que você já saia da primeira consulta com redução dos sintomas. O número de sessões é definido na própria avaliação, de acordo com o seu caso.</div>
+      </details>
+      <details class="faq-item">
+        <summary>O tratamento dói? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Algumas técnicas musculares podem gerar leve desconforto, mas o tratamento não causa dor. O conforto do paciente é nossa prioridade em todas as sessões.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Os resultados são duradouros? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Sim. Tratamos a causa do problema, não apenas o sintoma. Os resultados tendem a ser duradouros, especialmente seguindo as orientações e exercícios indicados para o seu caso.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Vocês aceitam convênio? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Não trabalhamos com convênios. Mas emitimos nota fiscal para todos os atendimentos, que pode ser usada para reembolso no seu plano de saúde.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Quais formas de pagamento aceitam? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Aceitamos dinheiro, Pix e cartão. Planos de tratamento podem ser parcelados no cartão.</div>
+      </details>
+      <details class="faq-item">
+        <summary>O tratamento de DTM se relaciona com o Pilates? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Sim! A DTM frequentemente tem relação com a postura global. O Pilates pode ser um complemento importante no tratamento, trabalhando a musculatura cervical, postura e redução da tensão corporal — sempre de forma integrada com o tratamento da ATM.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Preciso levar exames? <span class="faq-icon">+</span></summary>
+        <div class="faq-answer">Não é obrigatório. Mas se você tiver exames como radiografias, tomografias ou laudos odontológicos, pode trazer — toda informação ajuda na avaliação e no planejamento do tratamento.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+<!-- UNIDADES -->
+<section id="unidades" style="background:var(--brown);">
+  <div class="container">
+    <div class="sec-header sec-header--center sec-header--white">
+      <span class="label">Onde estamos</span>
+      <h2>Nossas Unidades</h2>
+      <div class="divider divider--center divider--white"></div>
+    </div>
+    <div class="units-grid">
+      <div class="unit-card unit-card--main" style="background:rgba(255,255,255,.07);border-color:var(--gold);">
+        <div class="unit-badge">Unidade Principal</div>
+        <h3 style="color:var(--white);">Shopping Mauá</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong style="color:var(--gold);">Endereço</strong><span style="color:rgba(255,255,255,.6);">Av. Gov. Mario Covas Júnior, 01<br/>Centro – Mauá, SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong style="color:var(--gold);">Horário</strong><span style="color:rgba(255,255,255,.6);">Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🅿️</span>
+          <div><span style="color:rgba(255,255,255,.55);">Valet + zona azul · Prédio acessível ♿</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://www.google.com/maps?q=Av.+Gov.+Mario+Covas+J%C3%BAnior,+01+-+Centro,+Mau%C3%A1+-+SP" target="_blank" class="btn btn--outline-white">Ver no mapa</a>
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20avaliação%20de%20DTM%20na%20unidade%20Shopping%20Mauá." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+      <div class="unit-card" style="background:rgba(255,255,255,.06);border-color:rgba(201,168,112,.2);">
+        <h3 style="color:var(--white);">Jardim Haydee</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong style="color:var(--gold);">Endereço</strong><span style="color:rgba(255,255,255,.6);">Jardim Haydee – Mauá, SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong style="color:var(--gold);">Horário</strong><span style="color:rgba(255,255,255,.6);">Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20avaliação%20de%20DTM%20na%20unidade%20Jardim%20Haydee." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+      <div class="unit-card" style="background:rgba(255,255,255,.06);border-color:rgba(201,168,112,.2);">
+        <h3 style="color:var(--white);">Santo André</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong style="color:var(--gold);">Endereço</strong><span style="color:rgba(255,255,255,.6);">Av. Portugal – Santo André, SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong style="color:var(--gold);">Horário</strong><span style="color:rgba(255,255,255,.6);">Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20avaliação%20de%20DTM%20na%20unidade%20de%20Santo%20André." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA FINAL -->
+<div class="cta-banner cta-banner--gold">
+  <div class="container">
+    <span class="label" style="color:var(--brown-mid);text-align:center;display:block;">Sem compromisso</span>
+    <h2>Pronto para viver sem dor?</h2>
+    <p>Avaliação gratuita · Resultado desde a 1ª sessão · Sem encaminhamento médico</p>
+    <div class="cta-btns">
+      <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avaliação%20especializada%20na%20HC%20Pilates." class="btn btn--dark">Agendar avaliação ATM / DTM <span class="arr">→</span></a>
+      <a href="index.html" class="btn btn--outline">Ver outros serviços</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:.7rem;">
+          <svg width="30" height="30" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/><path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/><path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/><path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/></svg>
+          <div><div style="font-family:'Cormorant Garamond',serif;font-size:.95rem;color:var(--white);letter-spacing:.1em;">HC PILATES</div><div style="font-size:.52rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;">Equilíbrio e Bem-Estar</div></div>
+        </div>
+        <p>Especialistas em DTM, ATM e Bruxismo. 3 unidades em Mauá e Santo André – SP.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Serviços</h5>
+        <ul>
+          <li><a href="dtm-atm.html">DTM & ATM</a></li>
+          <li><a href="dtm-atm.html#bruxismo">Bruxismo</a></li>
+          <li><a href="pilates.html">Pilates Clínico</a></li>
+          <li><a href="fisioterapia.html">Fisioterapia</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Nesta página</h5>
+        <ul>
+          <li><a href="#identifica">Você se identifica?</a></li>
+          <li><a href="#bruxismo">Bruxismo</a></li>
+          <li><a href="#sobre">Cinthia Ravenne</a></li>
+          <li><a href="#unidades">Unidades</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="https://api.whatsapp.com/send/?phone=5511967608428">(11) 96760-8428</a></li>
+          <li><a href="https://www.instagram.com/fisioravenne/" target="_blank">@fisioravenne</a></li>
+          <li><a href="https://www.instagram.com/hc.pilates/" target="_blank">@hc.pilates</a></li>
+          <li><a href="index.html">Página principal</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 HC Pilates. Desenvolvido por <a href="#" style="color:rgba(201,168,112,.4);">EXP Digital</a></p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/hc.pilates/" target="_blank" class="fsoc">IG</a>
+        <a href="https://www.instagram.com/fisioravenne/" target="_blank" class="fsoc">FR</a>
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428" target="_blank" class="fsoc">WA</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20vim%20pelo%20site%20HC%20Pilates." class="wa-btn" target="_blank" title="Agendar ATM/DTM">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', scrollY > 60); });
+  document.getElementById('menuBtn').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+  document.getElementById('menuClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+</script>
+</body>
+</html>

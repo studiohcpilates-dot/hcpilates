@@ -1,0 +1,156 @@
+{
+  "version": "0.4",
+  "title": "HC Pilates – DTM & ATM",
+  "type": "page",
+  "content": [
+    {
+      "id": "sd000001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#3B2A1E", "padding": { "unit": "px", "top": "160", "right": "40", "bottom": "120", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cd000001", "elType": "column", "settings": { "_column_size": 60 }, "elements": [
+            { "id": "wd000001", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Especialidade · Cinthia Ravenne</p>" }, "elements": [] },
+            { "id": "wd000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "DTM, ATM e Bruxismo", "header_size": "h1", "title_color": "#FFFFFF", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 64 } }, "elements": [] },
+            { "id": "wd000003", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='color:rgba(255,255,255,.8);font-size:1.1rem;line-height:1.8;max-width:540px;'>Tratamento especializado da disfunção temporomandibular, bruxismo e dor orofacial — com abordagem que resolve a causa, não apenas o sintoma.</p>" }, "elements": [] },
+            { "id": "wd000004", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar avaliação de ATM / DTM →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20especializada%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sd000002",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F8F3EC", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        {
+          "id": "cd000002",
+          "elType": "column",
+          "settings": { "_column_size": 50, "padding": { "unit": "px", "top": "0", "right": "60", "bottom": "0", "left": "0", "isLinked": false } },
+          "elements": [
+            { "id": "wd000005", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Você se identifica?</p>" }, "elements": [] },
+            { "id": "wd000006", "elType": "widget", "widgetType": "heading", "settings": { "title": "Acorda com dor e já começa o dia no limite?", "header_size": "h2", "title_color": "#3B2A1E", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 38 } }, "elements": [] },
+            { "id": "wd000007", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wd000008", "elType": "widget", "widgetType": "icon-list", "settings": {
+                "icon_list": [
+                  { "_id": "di01", "text": "Acorda com dor e já começa o dia no limite", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "di02", "text": "Tomou remédio, fez repouso, mas a dor voltou", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "di03", "text": "A dor está te impedindo de trabalhar, praticar esportes ou curtir sua família", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "di04", "text": "Já fez tratamentos mas não resolveu de vez", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "di05", "text": "Te disseram que \"é coisa do estresse\" ou \"vai ter que conviver\"", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "di06", "text": "Sente cliques, estalo ou travamento na mandíbula", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "di07", "text": "Dores de cabeça frequentes, especialmente ao acordar", "icon": { "value": "fas fa-arrow-right", "library": "solid" } },
+                  { "_id": "di08", "text": "Dor de ouvido sem infecção diagnosticada", "icon": { "value": "fas fa-arrow-right", "library": "solid" } }
+                ],
+                "icon_color": "#C9A870",
+                "text_color": "#5C4A3A"
+              }, "elements": [] },
+            { "id": "wd000009", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='background:#F5EDD6;border-left:3px solid #C9A870;padding:1.2rem 1.8rem;border-radius:0 6px 6px 0;margin-top:1.5rem;'><p style='color:#5C4A3A;'>Se você se identificou com alguma dessas situações, saiba que existe um <strong>caminho diferente</strong>. Um tratamento que não mascara a dor, mas resolve a origem dela.</p></div>" }, "elements": [] },
+            { "id": "wd000010", "elType": "widget", "widgetType": "button", "settings": { "text": "Quero resolver de vez →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Me%20identifiquei%20com%20os%20sintomas%20de%20DTM%20no%20site.%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.", "is_external": true }, "background_color": "#3B2A1E", "button_text_color": "#C9A870", "align": "left" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "cd000003",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wd000011", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='background:#3B2A1E;border-radius:8px;padding:2rem;margin-bottom:1.5rem;'><h3 style='color:#FFFFFF;font-family:Cormorant Garamond,serif;font-size:1.4rem;margin-bottom:1rem;'>O que é a DTM?</h3><p style='color:rgba(255,255,255,.7);font-size:.9rem;line-height:1.7;'>A Disfunção Temporomandibular é uma condição que afeta a articulação temporomandibular (ATM) — a \"dobradiça\" que conecta a mandíbula ao crânio — e os músculos ao redor. Estima-se que <strong style='color:#C9A870;'>entre 40% e 60% da população</strong> apresente algum sinal de DTM ao longo da vida.</p></div>" }, "elements": [] },
+            { "id": "wd000012", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='background:#F5EDD6;border-radius:8px;padding:2rem;'><p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8B6914;margin-bottom:1rem;'>Sintomas comuns</p><ul style='list-style:none;padding:0;display:flex;flex-direction:column;gap:.6rem;'><li style='color:#5C4A3A;font-size:.9rem;'>• Dor ou sensibilidade na mandíbula, rosto ou têmporas</li><li style='color:#5C4A3A;font-size:.9rem;'>• Dificuldade para abrir ou fechar a boca completamente</li><li style='color:#5C4A3A;font-size:.9rem;'>• Estalos ou crepitação ao mastigar ou bocejar</li><li style='color:#5C4A3A;font-size:.9rem;'>• Dores de cabeça frequentes, especialmente ao acordar</li><li style='color:#5C4A3A;font-size:.9rem;'>• Dor de ouvido sem infecção diagnosticada</li><li style='color:#5C4A3A;font-size:.9rem;'>• Travamento da mandíbula</li><li style='color:#5C4A3A;font-size:.9rem;'>• Sensação de cansaço muscular no rosto</li><li style='color:#5C4A3A;font-size:.9rem;'>• Dor cervical e tensão no pescoço</li><li style='color:#5C4A3A;font-size:.9rem;'>• Sensibilidade dentária sem causa aparente</li></ul></div>" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sd000003",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#3B2A1E", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cd000004", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wd000013", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Como funciona</p>" }, "elements": [] },
+            { "id": "wd000014", "elType": "widget", "widgetType": "heading", "settings": { "title": "Protocolo de Tratamento para ATM / DTM", "header_size": "h2", "title_color": "#FFFFFF", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wd000015", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wd000016", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;color:rgba(255,255,255,.6);'>Multidisciplinar, individualizado e baseado em evidências científicas. Já na primeira sessão, iniciamos o alívio dos sintomas.</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sd000004",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#3B2A1E", "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cd000005", "elType": "column", "settings": { "_column_size": 33, "background_background": "classic", "background_color": "rgba(255,255,255,.06)", "border_border": "solid", "border_color": "rgba(201,168,112,.2)", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false } }, "elements": [
+            { "id": "wd000017", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='width:48px;height:48px;background:#C9A870;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;color:#3B2A1E;margin-bottom:1.2rem;'>1</div><h3 style='color:#FFFFFF;font-family:Cormorant Garamond,serif;font-size:1.4rem;margin-bottom:.8rem;'>Avaliação Completa</h3><p style='color:rgba(255,255,255,.6);font-size:.9rem;line-height:1.7;'>Anamnese detalhada, palpação muscular e articular, análise da abertura bucal e padrão de movimento mandibular. O objetivo é entender não apenas onde dói, mas o que está causando a dor.</p><p style='color:#C9A870;font-size:.8rem;margin-top:1rem;'>⏱ Duração: 90 minutos</p>" }, "elements": [] }
+        ] },
+        { "id": "cd000006", "elType": "column", "settings": { "_column_size": 33, "background_background": "classic", "background_color": "rgba(255,255,255,.06)", "border_border": "solid", "border_color": "rgba(201,168,112,.2)", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false } }, "elements": [
+            { "id": "wd000018", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='width:48px;height:48px;background:#C9A870;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;color:#3B2A1E;margin-bottom:1.2rem;'>2</div><h3 style='color:#FFFFFF;font-family:Cormorant Garamond,serif;font-size:1.4rem;margin-bottom:.8rem;'>Tratamento Imediato</h3><p style='color:rgba(255,255,255,.6);font-size:.9rem;line-height:1.7;'>Ainda na primeira sessão, já iniciamos. Terapia manual para mobilização articular, liberação miofascial e agulhamento seco (dry needling) quando indicado. A maioria dos pacientes sai com redução dos sintomas.</p><p style='color:#C9A870;font-size:.8rem;margin-top:1rem;'>✓ Resultado desde a 1ª sessão</p>" }, "elements": [] }
+        ] },
+        { "id": "cd000007", "elType": "column", "settings": { "_column_size": 33, "background_background": "classic", "background_color": "rgba(255,255,255,.06)", "border_border": "solid", "border_color": "rgba(201,168,112,.2)", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false } }, "elements": [
+            { "id": "wd000019", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='width:48px;height:48px;background:#C9A870;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;color:#3B2A1E;margin-bottom:1.2rem;'>3</div><h3 style='color:#FFFFFF;font-family:Cormorant Garamond,serif;font-size:1.4rem;margin-bottom:.8rem;'>Plano Personalizado</h3><p style='color:rgba(255,255,255,.6);font-size:.9rem;line-height:1.7;'>Ao final da avaliação, você recebe o prognóstico completo: quantas sessões, qual frequência, exercícios para fazer em casa e orientações sobre hábitos posturais e manejo do estresse.</p><p style='color:#C9A870;font-size:.8rem;margin-top:1rem;'>📋 Plano claro desde o início</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sd000005",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#FFFFFF", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        {
+          "id": "cd000008",
+          "elType": "column",
+          "settings": { "_column_size": 50, "padding": { "unit": "px", "top": "0", "right": "60", "bottom": "0", "left": "0", "isLinked": false } },
+          "elements": [
+            { "id": "wd000020", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Bruxismo</p>" }, "elements": [] },
+            { "id": "wd000021", "elType": "widget", "widgetType": "heading", "settings": { "title": "Mais do que ranger os dentes", "header_size": "h2", "title_color": "#3B2A1E", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 38 } }, "elements": [] },
+            { "id": "wd000022", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wd000023", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='color:#5C4A3A;line-height:1.8;'>O bruxismo é o hábito involuntário de ranger ou apertar os dentes, que pode ocorrer durante o sono (<em>bruxismo do sono</em>) ou durante o dia (<em>bruxismo em vigília</em>). Estima-se que <strong>8% a 31% dos adultos</strong> sejam afetados.</p><p style='color:#5C4A3A;line-height:1.8;margin-top:1rem;'>O estresse e a ansiedade são fatores desencadeantes e mantenedores importantes. Sem tratamento, o bruxismo pode causar danos sérios à saúde bucal, muscular e articular.</p>" }, "elements": [] },
+            { "id": "wd000024", "elType": "widget", "widgetType": "heading", "settings": { "title": "Sinais de que você pode ter Bruxismo:", "header_size": "h4", "title_color": "#3B2A1E" }, "elements": [] },
+            { "id": "wd000025", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem;'><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Dentes desgastados</span><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Dor ao acordar</span><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Dor de cabeça matinal</span><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Sensibilidade dentária</span><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Dor na mandíbula</span><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Tensão nos músculos faciais</span><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Sono agitado</span><span style='background:#F5EDD6;border:1px solid #D4B278;color:#5C4A3A;font-size:.85rem;padding:.3rem .9rem;border-radius:20px;'>Tensão cervical</span></div>" }, "elements": [] },
+            { "id": "wd000026", "elType": "widget", "widgetType": "button", "settings": { "text": "Tratar bruxismo →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Acredito%20que%20tenho%20bruxismo.%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#3B2A1E", "button_text_color": "#C9A870", "align": "left" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "cd000009",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wd000027", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='background:#F8F3EC;border-radius:8px;padding:2.5rem;'><h3 style='color:#3B2A1E;font-family:Cormorant Garamond,serif;font-size:1.6rem;margin-bottom:1.5rem;'>Como tratamos o Bruxismo</h3><div style='display:flex;gap:1rem;margin-bottom:1.2rem;'><span style='font-size:1.5rem;'>🔍</span><div><h4 style='color:#3B2A1E;font-size:1rem;margin-bottom:.3rem;'>Diagnóstico Diferencial</h4><p style='color:#7A6050;font-size:.85rem;line-height:1.6;'>Avaliação para identificar o tipo, a gravidade e os fatores associados ao bruxismo, diferenciando de outras causas de dor orofacial.</p></div></div><div style='display:flex;gap:1rem;margin-bottom:1.2rem;'><span style='font-size:1.5rem;'>🖐️</span><div><h4 style='color:#3B2A1E;font-size:1rem;margin-bottom:.3rem;'>Fisioterapia Especializada</h4><p style='color:#7A6050;font-size:.85rem;line-height:1.6;'>Terapia manual para alívio da tensão muscular, liberação miofascial e mobilização da ATM.</p></div></div><div style='display:flex;gap:1rem;margin-bottom:1.2rem;'><span style='font-size:1.5rem;'>🧘</span><div><h4 style='color:#3B2A1E;font-size:1rem;margin-bottom:.3rem;'>Exercícios e Reeducação</h4><p style='color:#7A6050;font-size:.85rem;line-height:1.6;'>Protocolo específico para relaxamento e reequilíbrio muscular da face, mandíbula e cervical.</p></div></div><div style='display:flex;gap:1rem;'><span style='font-size:1.5rem;'>💬</span><div><h4 style='color:#3B2A1E;font-size:1rem;margin-bottom:.3rem;'>Trabalho Interdisciplinar</h4><p style='color:#7A6050;font-size:.85rem;line-height:1.6;'>Quando necessário, indicamos e trabalhamos com dentistas e psicólogos para resultado completo.</p></div></div></div>" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sd000006",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#F8F3EC", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cd000010", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wd000028", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Dúvidas frequentes</p>" }, "elements": [] },
+            { "id": "wd000029", "elType": "widget", "widgetType": "heading", "settings": { "title": "Perguntas sobre DTM e ATM", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wd000030", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wd000031", "elType": "widget", "widgetType": "accordion", "settings": { "tabs": [
+                { "_id": "dtmfaq01", "tab_title": "Preciso de encaminhamento médico?", "tab_content": "Não. Você pode agendar diretamente, sem nenhuma solicitação médica. Basta entrar em contato e marcar sua avaliação." },
+                { "_id": "dtmfaq02", "tab_title": "Em quanto tempo vou sentir melhora?", "tab_content": "Trabalhamos para que você já saia da primeira consulta com redução dos sintomas. O número de sessões é definido na própria avaliação, de acordo com o seu caso." },
+                { "_id": "dtmfaq03", "tab_title": "O tratamento dói?", "tab_content": "Algumas técnicas musculares podem gerar leve desconforto, mas o tratamento não causa dor. O conforto do paciente é nossa prioridade em todas as sessões." },
+                { "_id": "dtmfaq04", "tab_title": "Os resultados são duradouros?", "tab_content": "Sim. Tratamos a causa do problema, não apenas o sintoma. Os resultados tendem a ser duradouros, especialmente seguindo as orientações e exercícios indicados para o seu caso." },
+                { "_id": "dtmfaq05", "tab_title": "Vocês aceitam convênio?", "tab_content": "Não trabalhamos com convênios. Mas emitimos nota fiscal para todos os atendimentos, que pode ser usada para reembolso no seu plano de saúde." },
+                { "_id": "dtmfaq06", "tab_title": "Quais formas de pagamento aceitam?", "tab_content": "Aceitamos dinheiro, Pix e cartão. Planos de tratamento podem ser parcelados no cartão." },
+                { "_id": "dtmfaq07", "tab_title": "O tratamento de DTM se relaciona com o Pilates?", "tab_content": "Sim! A DTM frequentemente tem relação com a postura global. O Pilates pode ser um complemento importante no tratamento, trabalhando a musculatura cervical, postura e redução da tensão corporal — sempre de forma integrada com o tratamento da ATM." },
+                { "_id": "dtmfaq08", "tab_title": "Preciso levar exames?", "tab_content": "Não é obrigatório. Mas se você tiver exames como radiografias, tomografias ou laudos odontológicos, pode trazer — toda informação ajuda na avaliação e no planejamento do tratamento." }
+              ] }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sd000007",
+      "elType": "section",
+      "settings": { "layout": "full_width", "background_background": "classic", "background_color": "#C9A870", "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false } },
+      "elements": [
+        { "id": "cd000011", "elType": "column", "settings": { "_column_size": 100 }, "elements": [
+            { "id": "wd000032", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8B6914;'>Sem compromisso</p>" }, "elements": [] },
+            { "id": "wd000033", "elType": "widget", "widgetType": "heading", "settings": { "title": "Pronto para viver sem dor?", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wd000034", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;color:#5C4A2A;'>Avaliação gratuita · Resultado desde a 1ª sessão · Sem encaminhamento médico</p>" }, "elements": [] },
+            { "id": "wd000035", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar avaliação ATM / DTM →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Tenho%20dores%20na%20ATM%20/%20DTM%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20especializada%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#3B2A1E", "button_text_color": "#C9A870", "align": "center" }, "elements": [] }
+        ] }
+      ]
+    }
+  ],
+  "page_settings": { "post_title": "DTM & ATM", "hide_title": "yes" }
+}

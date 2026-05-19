@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fisioterapia – HC Pilates | Cinthia Ravenne · Mauá e Santo André</title>
+  <meta name="description" content="Fisioterapia ortopédica e postural em Mauá e Santo André-SP. Tratamento de dores na coluna, joelhos, ombros, pós-operatório e reabilitação com Cinthia Ravenne. HC Pilates."/>
+  <meta name="keywords" content="fisioterapia mauá, fisioterapia ortopédica mauá, fisioterapia postural mauá, reabilitação mauá, fisioterapia santo andré, Cinthia Ravenne fisioterapeuta, dor nas costas mauá"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* ── Fisioterapia page-specific ─────────────────────────── */
+    .ftr-identify  { background: var(--cream); }
+    .ftr-identify-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+
+    .ftr-why { background: #F2EDE5; }
+
+    .ftr-areas { background: var(--brown); }
+    .areas-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin-top: 3rem;
+    }
+    .area-card {
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(201,168,112,.2);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      transition: border-color .3s, background .3s;
+    }
+    .area-card:hover {
+      border-color: rgba(201,168,112,.55);
+      background: rgba(255,255,255,.1);
+    }
+    .area-card__icon { font-size: 1.8rem; margin-bottom: .9rem; display: block; }
+    .area-card h4 { color: var(--white); font-family:'Jost',sans-serif; font-weight:500; font-size:1rem; margin-bottom:.4rem; }
+    .area-card p { color: rgba(255,255,255,.55); font-size: .85rem; line-height: 1.7; }
+
+    .ftr-protocol { background: var(--cream-dark); }
+    .protocol-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+    .pstep {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2.5rem 2rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .pstep::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    }
+    .pstep__num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.5rem;
+      color: var(--gold-pale);
+      line-height: 1;
+      margin-bottom: .5rem;
+    }
+    .pstep h4 { color: var(--brown); font-size: 1.1rem; margin-bottom: .8rem; font-family:'Jost',sans-serif; font-weight:600; }
+    .pstep p { font-size: .88rem; color: var(--text-mid); line-height: 1.8; }
+
+    .ftr-about { background: var(--white); }
+    .ftr-about-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: stretch; }
+    .ftr-about-photo { background-size: cover; background-position: center top; min-height: 520px; }
+    .ftr-about-text {
+      background: var(--brown);
+      padding: 4.5rem 3.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .ftr-faq { background: var(--cream); }
+    .faq-list { max-width: 760px; margin: 3rem auto 0; }
+
+    .ftr-areas .areas-grid { grid-template-columns: repeat(2,1fr); }
+    .tecnicas-box { display:grid; grid-template-columns:repeat(2,1fr); gap:1.5rem; }
+    @media(max-width:900px) {
+      .ftr-identify-inner { grid-template-columns:1fr; gap:2.5rem; }
+      .protocol-steps { grid-template-columns:1fr; }
+      .ftr-about-inner { grid-template-columns:1fr; }
+    }
+    @media(max-width:768px) {
+      .ftr-areas .areas-grid { grid-template-columns:1fr; }
+      .tecnicas-box { grid-template-columns:1fr; }
+    }
+  </style>
+
+  <!-- Schema.org – LocalBusiness + MedicalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["MedicalBusiness","LocalBusiness"],
+    "name": "HC Pilates – Fisioterapia",
+    "description": "Fisioterapia ortopédica e postural. Reabilitação de dores, lesões e pós-operatório com Cinthia Ravenne fisioterapeuta.",
+    "url": "https://hcpilates.com.br/fisioterapia",
+    "telephone": "+5511967608428",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Gov. Mario Covas Júnior, 01",
+      "addressLocality": "Mauá",
+      "addressRegion": "SP",
+      "postalCode": "09390-040",
+      "addressCountry": "BR"
+    },
+    "medicalSpecialty": "PhysicalTherapy"
+  }
+  </script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav" class="scrolled" style="background:rgba(248,243,236,.97);box-shadow:0 1px 0 var(--gold-light);">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/><path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/><path d="M30 44c0 0-8-8-8-16 0-5 3.5-8 8-8s8 3 8 8c0 8-8 16-8 16z" fill="#C9A870" opacity=".5"/><path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/><path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/><line x1="30" y1="45" x2="30" y2="52" stroke="#C9A870" stroke-width="1.5"/><line x1="26" y1="52" x2="34" y2="52" stroke="#C9A870" stroke-width="1.5"/></svg>
+      <div><span class="nav-logo-name">HC PILATES</span><span class="nav-logo-tag">Equilíbrio e Bem-Estar</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="pilates.html"       class="nav-link">Pilates</a></li>
+      <li><a href="fisioterapia.html"  class="nav-link active">Fisioterapia</a></li>
+      <li><a href="dtm-atm.html"       class="nav-link">DTM &amp; ATM</a></li>
+      <li><a href="index.html#sobre"   class="nav-link">Sobre</a></li>
+      <li><a href="index.html#unidades" class="nav-link">Unidades</a></li>
+    </ul>
+    <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20de%20Fisioterapia%20na%20HC%20Pilates." class="btn btn--gold nav-cta">Agendar avaliação gratuita</a>
+    <button class="nav-hamburger" id="menuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="mobileMenu">
+  <button class="nav-mobile-close" id="menuClose">✕</button>
+  <a href="pilates.html"       class="nav-link">Pilates</a>
+  <a href="fisioterapia.html"  class="nav-link">Fisioterapia</a>
+  <a href="dtm-atm.html"       class="nav-link">DTM &amp; ATM</a>
+  <a href="index.html#sobre"   class="nav-link">Sobre</a>
+  <a href="index.html#unidades" class="nav-link">Unidades</a>
+  <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Fisioterapia%20na%20HC%20Pilates." class="btn btn--gold">Agendar avaliação</a>
+</div>
+
+
+<!-- HERO -->
+<header class="page-hero">
+  <div class="page-hero__bg" style="background-image:url('fotos/cinthia-retrato-profissional.jpg'); background-position:center 20%;"></div>
+  <div class="page-hero__overlay"></div>
+  <div class="container">
+    <div class="page-hero__content">
+      <span class="label">HC Pilates · Cinthia Ravenne</span>
+      <h1>Fisioterapia<br/>Ortopédica</h1>
+      <p class="lead">Tratamento de dores, lesões e desequilíbrios do movimento com avaliação individualizada — resolva a causa, não só o sintoma.</p>
+      <div class="page-hero__btns">
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20de%20Fisioterapia%20na%20HC%20Pilates." class="btn btn--gold">Agendar avaliação gratuita <span class="arr">→</span></a>
+        <a href="#identifica" class="btn btn--outline-white">Me identifico com os sintomas</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="container">
+    <div class="stats-inner">
+      <div class="stat"><strong>Fisio</strong><span>Especialista Cinthia Ravenne</span></div>
+      <div class="stat"><strong>+10</strong><span>Anos de experiência clínica</span></div>
+      <div class="stat"><strong>100%</strong><span>Avaliação individualizada</span></div>
+      <div class="stat"><strong>3</strong><span>Unidades em Mauá e Santo André</span></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- VOCÊ SE IDENTIFICA? -->
+<section class="ftr-identify" id="identifica">
+  <div class="container">
+    <div class="ftr-identify-inner">
+
+      <!-- ESQUERDA: checklist -->
+      <div>
+        <span class="label">Você se identifica?</span>
+        <h2 style="color:var(--brown)">Está convivendo com uma dor que não passa?</h2>
+        <div class="divider"></div>
+        <div class="identify-list">
+          <div class="identify-item"><span>→</span> Sente dor na coluna, pescoço ou ombros ao acordar ou no final do dia</div>
+          <div class="identify-item"><span>→</span> Já tomou remédio, descansou — mas a dor voltou igual ou pior</div>
+          <div class="identify-item"><span>→</span> A dor te impede de trabalhar, praticar exercícios ou fazer atividades simples</div>
+          <div class="identify-item"><span>→</span> Passou por médicos e exames, mas o tratamento não resolveu de vez</div>
+          <div class="identify-item"><span>→</span> Sente formigamento, pontadas ou limitação de movimento no dia a dia</div>
+          <div class="identify-item"><span>→</span> Está em recuperação após cirurgia ortopédica e quer voltar à vida normal</div>
+          <div class="identify-item"><span>→</span> Percebeu que sua postura piorou e isso está causando desconforto constante</div>
+          <div class="identify-item"><span>→</span> Te disseram para "aprender a conviver" — e você não aceita isso</div>
+        </div>
+        <div class="identify-callout">
+          <p>Se você se identificou com algum desses cenários, saiba que existe um <strong>caminho diferente</strong>. Um tratamento que vai além do alívio temporário e trata a <strong>origem do problema</strong>.</p>
+        </div>
+      </div>
+
+      <!-- DIREITA: foto + highlight -->
+      <div style="display:flex;flex-direction:column;gap:1.5rem;">
+        <div style="border-radius:var(--radius);overflow:hidden;aspect-ratio:3/4;">
+          <img src="fotos/cinthia-pose-equilíbrio.jpg" alt="Fisioterapia HC Pilates – Cinthia Ravenne" style="width:100%;height:100%;object-fit:cover;"/>
+        </div>
+        <div style="background:var(--brown);border-radius:var(--radius);padding:2rem 2.2rem;">
+          <p style="color:var(--gold-light);font-family:'Cormorant Garamond',serif;font-size:1.25rem;line-height:1.7;font-style:italic;">"A fisioterapia eficaz não suprime a dor — ela entende por que o corpo dói e reequilibra o que estava fora de lugar."</p>
+          <p style="color:rgba(255,255,255,.5);font-size:.8rem;margin-top:.8rem;font-family:'Jost',sans-serif;letter-spacing:.05em;">— Cinthia Ravenne, Fisioterapeuta</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- POR QUE NÃO RESOLVE? -->
+<section class="ftr-why">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">O problema por trás do problema</span>
+      <h2 style="color:var(--brown)">Por que os tratamentos comuns não resolvem?</h2>
+      <div class="divider divider--center"></div>
+      <p style="max-width:600px;margin:0 auto;">A maioria das abordagens trata o <em>sintoma</em> — a dor. Mas enquanto a causa estrutural não for tratada, a dor retorna.</p>
+    </div>
+
+    <div class="why-grid" style="margin-top:3rem;">
+      <div class="why-card">
+        <div class="why-card__icon">💊</div>
+        <h4>Remédios e anti-inflamatórios</h4>
+        <p>Aliviam a dor temporariamente, mas não corrigem o desequilíbrio muscular, postural ou articular que gera o problema. Quando o efeito passa, a dor volta.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card__icon">🛋️</div>
+        <h4>Repouso prolongado</h4>
+        <p>O descanso pode ajudar no curto prazo, mas sem reabilitação ativa, os músculos enfraquecem, as articulações perdem mobilidade e o ciclo de dor se repete.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card__icon">🤖</div>
+        <h4>Protocolos genéricos</h4>
+        <p>Sessões em série com os mesmos aparelhos para todo mundo ignoram as particularidades do seu corpo, seu padrão de movimento e sua história de saúde.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card__icon">📋</div>
+        <h4>Falta de avaliação precisa</h4>
+        <p>Sem identificar a origem real da disfunção — muscular, articular, postural ou neurológica — qualquer tratamento é uma tentativa no escuro.</p>
+      </div>
+    </div>
+
+    <div style="background:var(--brown);border-radius:var(--radius);padding:2.5rem 3rem;margin-top:3rem;display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap;">
+      <div style="flex:1;min-width:280px;">
+        <p style="color:var(--gold-light);font-family:'Cormorant Garamond',serif;font-size:1.35rem;line-height:1.7;font-style:italic;">"Na HC Pilates, cada sessão começa pela avaliação — entendemos o que está desequilibrado no SEU corpo antes de traçar qualquer protocolo."</p>
+      </div>
+      <div style="flex-shrink:0;">
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20de%20Fisioterapia%20na%20HC%20Pilates." class="btn btn--gold">Quero minha avaliação <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ÁREAS DE ATUAÇÃO -->
+<section class="ftr-areas" id="areas">
+  <div class="container">
+    <div class="sec-header sec-header--center sec-header--white">
+      <span class="label">Especialidades</span>
+      <h2>Atendimentos de Fisioterapia</h2>
+      <div class="divider divider--center divider--white"></div>
+      <p style="color:rgba(255,255,255,.6);">Cada atendimento é realizado de forma individualizada, com olhar clínico, escuta atenta e cuidado humanizado.</p>
+    </div>
+
+    <div class="areas-grid">
+
+      <div class="area-card">
+        <span class="area-card__icon">🦴</span>
+        <h4>Fisioterapia Ortopédica</h4>
+        <p style="color:rgba(255,255,255,.75);font-style:italic;font-size:.82rem;margin-bottom:.6rem;">Dor não deve fazer parte da sua rotina.</p>
+        <p>Voltada para prevenção, tratamento e recuperação de dores, lesões e limitações musculares e articulares. Cada atendimento é realizado de forma individualizada, buscando devolver movimento, autonomia e qualidade de vida para que você volte a realizar suas atividades com mais segurança e confiança.</p>
+      </div>
+
+      <div class="area-card">
+        <span class="area-card__icon">🌸</span>
+        <h4>Fisioterapia Pélvica</h4>
+        <p style="color:rgba(255,255,255,.75);font-style:italic;font-size:.82rem;margin-bottom:.6rem;">Cuidar da saúde íntima também é cuidar da sua qualidade de vida.</p>
+        <p>Auxilia no tratamento de questões como incontinência urinária, dores, fortalecimento do assoalho pélvico, gestação, pós-parto e disfunções que muitas vezes são silenciosas, mas impactam diretamente o bem-estar e a autoestima. Um atendimento acolhedor, humanizado e pensado para que você se sinta segura em cada etapa do cuidado.</p>
+      </div>
+
+      <div class="area-card">
+        <span class="area-card__icon">✨</span>
+        <h4>Fisioterapia Dermato Funcional</h4>
+        <p style="color:rgba(255,255,255,.75);font-style:italic;font-size:.82rem;margin-bottom:.6rem;">Um cuidado que une saúde, autoestima e bem-estar.</p>
+        <p>Atua em tratamentos estéticos e terapêuticos, auxiliando na recuperação pós-operatória, redução de edemas, melhora da circulação, textura da pele e equilíbrio corporal. Mais do que estética, buscamos proporcionar leveza, conforto e cuidado através de técnicas que valorizam sua saúde e sua confiança.</p>
+      </div>
+
+      <div class="area-card">
+        <span class="area-card__icon">🧘</span>
+        <h4>Acupuntura</h4>
+        <p style="color:rgba(255,255,255,.75);font-style:italic;font-size:.82rem;margin-bottom:.6rem;">Equilíbrio para o corpo e para a mente.</p>
+        <p>Terapia que auxilia no alívio de dores, tensões, ansiedade, estresse e diversos desconfortos físicos e emocionais. Através de um olhar integrativo e acolhedor, buscamos estimular o equilíbrio do organismo, promovendo bem-estar, relaxamento e mais qualidade de vida de forma natural e segura.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- PROTOCOLO DE TRATAMENTO -->
+<section class="ftr-protocol" id="protocolo">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">Como funciona</span>
+      <h2 style="color:var(--brown)">Nosso protocolo de tratamento</h2>
+      <div class="divider divider--center"></div>
+      <p>Um método estruturado em etapas claras — do diagnóstico funcional ao resultado duradouro.</p>
+    </div>
+
+    <div class="protocol-steps">
+
+      <div class="pstep">
+        <div class="pstep__num">01</div>
+        <h4>Avaliação Funcional Completa</h4>
+        <p>A primeira sessão é dedicada a entender você: sua história de dor, exames, padrão de movimento e compensações. Sem avaliação não existe tratamento eficaz — aqui, não pulamos essa etapa.</p>
+      </div>
+
+      <div class="pstep">
+        <div class="pstep__num">02</div>
+        <h4>Protocolo Individualizado</h4>
+        <p>Com base na avaliação, montamos um plano de tratamento específico para o seu caso. Técnicas manuais, exercícios terapêuticos e, quando indicado, integração com Pilates Clínico para potencializar os resultados.</p>
+      </div>
+
+      <div class="pstep">
+        <div class="pstep__num">03</div>
+        <h4>Reavaliação e Progressão</h4>
+        <p>Ao longo do tratamento, o protocolo evolui conforme sua melhora. Acompanhamos cada etapa, ajustamos o que for necessário e só encerramos quando você retoma sua qualidade de vida com segurança.</p>
+      </div>
+
+    </div>
+
+    <div class="tecnicas-box" style="background:var(--white);border:1px solid var(--gold-light);border-radius:var(--radius);padding:2rem 2.5rem;margin-top:2.5rem;">
+      <div>
+        <h5 style="color:var(--brown);font-family:'Jost',sans-serif;font-weight:600;margin-bottom:.8rem;">Técnicas utilizadas</h5>
+        <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:.5rem;">
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Terapia manual e mobilização articular</li>
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Exercícios terapêuticos e cinesioterapia</li>
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Pilates Clínico integrado à reabilitação</li>
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Eletroterapia e recursos físicos</li>
+        </ul>
+      </div>
+      <div>
+        <h5 style="color:var(--brown);font-family:'Jost',sans-serif;font-weight:600;margin-bottom:.8rem;">Diferenciais HC Pilates</h5>
+        <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:.5rem;">
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Atendimento conduzido por fisioterapeuta</li>
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Sessões individuais — não é academia</li>
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Integração entre fisioterapia e Pilates</li>
+          <li style="font-size:.88rem;color:var(--text-mid);display:flex;gap:.6rem;"><span style="color:var(--gold);">✓</span> Acompanhamento de evolução por sessão</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SOBRE CINTHIA RAVENNE -->
+<section class="ftr-about" id="sobre">
+  <div class="container" style="padding:0;">
+    <div class="ftr-about-inner">
+
+      <div class="ftr-about-photo" style="background-image:url('fotos/cinthia-retrato-profissional.jpg');"></div>
+
+      <div class="ftr-about-text">
+        <span class="label">Especialista</span>
+        <h2 style="color:var(--white);">Cinthia Ravenne</h2>
+        <div class="divider" style="background:var(--gold);opacity:.4;"></div>
+        <p style="color:rgba(255,255,255,.7);margin-bottom:1rem;">Fisioterapeuta especializada em Pilates Clínico e Disfunção Temporomandibular, Cinthia construiu sua carreira com foco em um tratamento que vai além do sintoma — buscando sempre a causa real do problema.</p>
+        <p style="color:rgba(255,255,255,.7);margin-bottom:2rem;">Com atendimento humanizado e individualizado, ela acredita que cada paciente merece um olhar único, um plano exclusivo e atenção em cada detalhe do tratamento.</p>
+
+        <div style="display:flex;flex-direction:column;gap:.8rem;margin-bottom:2.5rem;">
+          <div style="display:flex;gap:.8rem;align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;margin-top:.1rem;">✓</span>
+            <span style="color:rgba(255,255,255,.75);font-size:.9rem;">Fisioterapeuta especializada em DTM e Dor Orofacial</span>
+          </div>
+          <div style="display:flex;gap:.8rem;align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;margin-top:.1rem;">✓</span>
+            <span style="color:rgba(255,255,255,.75);font-size:.9rem;">Formação avançada em terapia manual e ATM</span>
+          </div>
+          <div style="display:flex;gap:.8rem;align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;margin-top:.1rem;">✓</span>
+            <span style="color:rgba(255,255,255,.75);font-size:.9rem;">Experiência com bruxismo, neuralgia e disfunção cervical</span>
+          </div>
+          <div style="display:flex;gap:.8rem;align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;margin-top:.1rem;">✓</span>
+            <span style="color:rgba(255,255,255,.75);font-size:.9rem;">Trabalho interdisciplinar com dentistas e psicólogos</span>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20falar%20com%20a%20Cinthia%20Ravenne%20sobre%20Fisioterapia%20na%20HC%20Pilates." class="btn btn--gold">Agendar com Cinthia <span class="arr">→</span></a>
+          <a href="https://www.instagram.com/fisioravenne/" target="_blank" class="btn btn--outline-white">@fisioravenne</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- FAQ -->
+<section class="ftr-faq" id="faq">
+  <div class="container">
+    <div class="sec-header sec-header--center">
+      <span class="label">Dúvidas frequentes</span>
+      <h2 style="color:var(--brown);">Perguntas sobre Fisioterapia</h2>
+      <div class="divider divider--center"></div>
+    </div>
+
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary class="faq-q">Preciso de encaminhamento médico para fazer fisioterapia?</summary>
+        <div class="faq-a">
+          <p>Não é obrigatório para consulta particular. Você pode agendar sua avaliação diretamente na HC Pilates. Se você for utilizar convênio, verifique com a sua operadora de saúde se há necessidade de guia de encaminhamento.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">Quantas sessões vou precisar?</summary>
+        <div class="faq-a">
+          <p>Depende da condição tratada, da cronicidade da dor e da resposta individual de cada paciente. Na avaliação inicial, Cinthia faz uma estimativa realista do número de sessões necessárias. Em média, casos agudos evoluem em 4 a 8 sessões; condições crônicas podem exigir protocolos mais longos e integração com Pilates Clínico.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">Fisioterapia e Pilates Clínico são a mesma coisa?</summary>
+        <div class="faq-a">
+          <p>Não — mas se complementam. A fisioterapia ortopédica atua na fase aguda e no diagnóstico funcional, usando técnicas manuais e exercícios terapêuticos direcionados. O Pilates Clínico é ideal para a fase de fortalecimento, manutenção e prevenção. Na HC Pilates, a integração entre os dois é um dos nossos grandes diferenciais.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">A fisioterapia pode substituir uma cirurgia?</summary>
+        <div class="faq-a">
+          <p>Em muitos casos, sim. Condições como hérnia de disco, tendinites e lesões de manguito rotador frequentemente respondem muito bem ao tratamento conservador (sem cirurgia). A decisão é sempre compartilhada com o médico responsável — e nossa abordagem é sempre tentar o tratamento conservador antes de indicar procedimentos invasivos.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">Posso fazer fisioterapia durante a gravidez?</summary>
+        <div class="faq-a">
+          <p>Sim! A fisioterapia é muito indicada durante a gestação para tratar dores lombares, ciatalgia, dores pélvicas e preparar o corpo para o parto. As técnicas são adaptadas para garantir a segurança da mãe e do bebê em todas as fases da gestação.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">A primeira consulta é paga?</summary>
+        <div class="faq-a">
+          <p>A avaliação inicial na HC Pilates é gratuita e sem compromisso. Queremos que você conheça nossa proposta, entenda o seu caso com clareza e tome a decisão de tratamento com segurança — sem pressão.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">Vocês atendem convênio?</summary>
+        <div class="faq-a">
+          <p>Entre em contato pelo WhatsApp para verificar os convênios disponíveis em cada unidade. Trabalhamos tanto com planos de saúde quanto com atendimento particular, com planos de sessões e condições especiais para tratamentos prolongados.</p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- UNIDADES -->
+<section id="unidades" style="background:var(--brown);">
+  <div class="container">
+    <div class="sec-header sec-header--center sec-header--white">
+      <span class="label">Onde nos encontrar</span>
+      <h2>Nossas Unidades</h2>
+      <div class="divider divider--center divider--white"></div>
+      <p style="color:rgba(255,255,255,.6);">Atendemos em três locais em Mauá e Santo André – SP, com horários flexíveis.</p>
+    </div>
+    <div class="units-grid">
+
+      <div class="unit-card unit-card--main">
+        <div class="unit-badge">Unidade Principal</div>
+        <h3>Shopping Mauá</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Av. Gov. Mario Covas Jr., 01 – Centro<br/>Mauá, SP · 09390-040</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🅿️</span>
+          <div><span>Valet + zona azul · Prédio acessível ♿</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://www.google.com/maps?q=Av.+Gov.+Mario+Covas+J%C3%BAnior,+01+-+Centro,+Mau%C3%A1+-+SP" target="_blank" class="btn btn--outline">Ver no mapa</a>
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Fisioterapia%20na%20unidade%20Shopping%20Mauá." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+
+      <div class="unit-card">
+        <h3>Jardim Haydee</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Jardim Haydee – Mauá, SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Fisioterapia%20na%20unidade%20Jardim%20Haydee." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+
+      <div class="unit-card">
+        <h3>Santo André</h3>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">📍</span>
+          <div><strong>Endereço</strong><span>Av. Portugal – Santo André, SP</span></div>
+        </div>
+        <div class="unit-detail">
+          <span class="unit-detail-icon">🕐</span>
+          <div><strong>Horário</strong><span>Segunda a Sexta: 8h às 20h</span></div>
+        </div>
+        <div class="unit-btns">
+          <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20Fisioterapia%20na%20unidade%20de%20Santo%20André." class="btn btn--gold">Agendar aqui</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA BANNER -->
+<div class="cta-banner cta-banner--gold">
+  <div class="container">
+    <span class="label" style="color:var(--brown-mid);text-align:center;display:block;">Avaliação gratuita</span>
+    <h2>Chega de conviver com a dor</h2>
+    <p>Avaliação gratuita · Protocolo individualizado · Resultado duradouro</p>
+    <div class="cta-btns">
+      <a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20agendar%20uma%20avaliação%20gratuita%20de%20Fisioterapia%20na%20HC%20Pilates." class="btn btn--dark">Agendar minha avaliação <span class="arr">→</span></a>
+      <a href="index.html" class="btn btn--outline">Ver outros serviços</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:.7rem;">
+          <svg width="30" height="30" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="29" stroke="#C9A870" stroke-width="1"/><path d="M30 48C30 48 18 38 18 28c0-7 5-12 12-12s12 5 12 12c0 10-12 20-12 20z" fill="#C9A870" opacity=".22"/><path d="M30 16c-5-6-14-4-16 4 4-2 10-2 16 2z" fill="#C9A870"/><path d="M30 16c5-6 14-4 16 4-4-2-10-2-16 2z" fill="#C9A870"/></svg>
+          <div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:.95rem;color:var(--white);letter-spacing:.1em;">HC PILATES</div>
+            <div style="font-size:.52rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;">Equilíbrio e Bem-Estar</div>
+          </div>
+        </div>
+        <p>Pilates Clínico e Fisioterapia com especialista. 3 unidades em Mauá e Santo André – SP.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Fisioterapia</h5>
+        <ul>
+          <li><a href="#areas">Ortopédica e Postural</a></li>
+          <li><a href="#areas">Pós-operatório</a></li>
+          <li><a href="#areas">Gestantes</a></li>
+          <li><a href="#protocolo">Protocolo de Tratamento</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Outros Serviços</h5>
+        <ul>
+          <li><a href="pilates.html">Pilates Clínico</a></li>
+          <li><a href="dtm-atm.html">DTM &amp; ATM</a></li>
+          <li><a href="dtm-atm.html#bruxismo">Bruxismo</a></li>
+          <li><a href="index.html">Página inicial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="https://api.whatsapp.com/send/?phone=5511967608428">(11) 96760-8428</a></li>
+          <li><a href="https://www.instagram.com/hc.pilates/" target="_blank">@hc.pilates</a></li>
+          <li><a href="https://www.instagram.com/fisioravenne/" target="_blank">@fisioravenne</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 HC Pilates. Desenvolvido por <a href="#" style="color:rgba(201,168,112,.4);">EXP Digital</a></p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/hc.pilates/" target="_blank" class="fsoc">IG</a>
+        <a href="https://api.whatsapp.com/send/?phone=5511967608428" target="_blank" class="fsoc">WA</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://api.whatsapp.com/send/?phone=5511967608428&text=Olá!%20Quero%20saber%20mais%20sobre%20Fisioterapia%20na%20HC%20Pilates." class="wa-btn" target="_blank">
+  <svg viewBox="0 0 24 24"><path fill="white" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 60));
+  document.getElementById('menuBtn').addEventListener('click', () => document.getElementById('mobileMenu').classList.add('open'));
+  document.getElementById('menuClose').addEventListener('click', () => document.getElementById('mobileMenu').classList.remove('open'));
+</script>
+</body>
+</html>

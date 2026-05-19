@@ -1,0 +1,240 @@
+{
+  "version": "0.4",
+  "title": "HC Pilates – Pilates Clínico",
+  "type": "page",
+  "content": [
+    {
+      "id": "sp000001",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#3B2A1E",
+        "padding": { "unit": "px", "top": "160", "right": "40", "bottom": "120", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "cp000001",
+          "elType": "column",
+          "settings": { "_column_size": 60 },
+          "elements": [
+            { "id": "wp000001", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>HC Pilates · Mauá e Santo André</p>" }, "elements": [] },
+            { "id": "wp000002", "elType": "widget", "widgetType": "heading", "settings": { "title": "Pilates Clínico", "header_size": "h1", "title_color": "#FFFFFF", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 64 } }, "elements": [] },
+            { "id": "wp000003", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='color:rgba(255,255,255,.8);font-size:1.1rem;line-height:1.8;max-width:540px;'>Movimento terapêutico para reabilitação, postura e qualidade de vida — conduzido por fisioterapeuta especializada, adaptado à sua necessidade.</p>" }, "elements": [] },
+            { "id": "wp000004", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar aula experimental →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20uma%20aula%20experimental%20de%20Pilates%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#C9A870", "button_text_color": "#3B2A1E", "align": "left" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp000002",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#3B2A1E",
+        "padding": { "unit": "px", "top": "40", "right": "40", "bottom": "40", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        { "id": "cp000002", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wp000005", "elType": "widget", "widgetType": "heading", "settings": { "title": "3", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wp000006", "elType": "widget", "widgetType": "heading", "settings": { "title": "Modalidades", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] },
+        { "id": "cp000003", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wp000007", "elType": "widget", "widgetType": "heading", "settings": { "title": "100%", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wp000008", "elType": "widget", "widgetType": "heading", "settings": { "title": "Individualizado", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] },
+        { "id": "cp000004", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wp000009", "elType": "widget", "widgetType": "heading", "settings": { "title": "Fisio", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wp000010", "elType": "widget", "widgetType": "heading", "settings": { "title": "Conduzido por fisioterapeuta", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] },
+        { "id": "cp000005", "elType": "column", "settings": { "_column_size": 25 }, "elements": [
+            { "id": "wp000011", "elType": "widget", "widgetType": "heading", "settings": { "title": "+500", "header_size": "h2", "title_color": "#C9A870", "align": "center", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wp000012", "elType": "widget", "widgetType": "heading", "settings": { "title": "Pacientes atendidos", "header_size": "h5", "title_color": "#FFFFFF", "align": "center" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sp000003",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F8F3EC",
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "cp000006",
+          "elType": "column",
+          "settings": { "_column_size": 50, "padding": { "unit": "px", "top": "0", "right": "60", "bottom": "0", "left": "0", "isLinked": false } },
+          "elements": [
+            { "id": "wp000013", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>O método</p>" }, "elements": [] },
+            { "id": "wp000014", "elType": "widget", "widgetType": "heading", "settings": { "title": "Pilates Clínico: movimento com propósito", "header_size": "h2", "title_color": "#3B2A1E", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 38 } }, "elements": [] },
+            { "id": "wp000015", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wp000016", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>O Pilates Clínico é uma abordagem terapêutica do método Pilates, voltada para a reabilitação, prevenção de lesões e melhora da qualidade de vida. Diferente do Pilates convencional praticado em academias, o Pilates Clínico é conduzido por um <strong>fisioterapeuta</strong> e adaptado à necessidade individual de cada paciente.</p><p style='margin-top:1rem;'>Na HC Pilates, cada sessão começa com uma avaliação do seu estado físico naquele dia — os exercícios são escolhidos e adaptados especificamente para você, garantindo segurança e resultado em cada aula.</p>" }, "elements": [] },
+            { "id": "wp000017", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='background:#F5EDD6;border-left:3px solid #C9A870;padding:1.2rem 1.8rem;border-radius:0 6px 6px 0;'><strong style='color:#3B2A1E;display:block;margin-bottom:.3rem;'>A diferença que importa:</strong><span style='color:#5C4A3A;font-size:.92rem;'>No Pilates Clínico, você não é mais um aluno numa turma — você é um paciente com um plano de exercícios personalizado, supervisionado por quem entende do seu corpo.</span></div>" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "cp000007",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wp000018", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp000004",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#3B2A1E",
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "cp000008",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "wp000019", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Modalidades</p>" }, "elements": [] },
+            { "id": "wp000020", "elType": "widget", "widgetType": "heading", "settings": { "title": "Escolha sua prática", "header_size": "h2", "title_color": "#FFFFFF", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wp000021", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] },
+            { "id": "wp000022", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;color:rgba(255,255,255,.6);'>Trabalhamos com três modalidades de Pilates, sempre orientadas por fisioterapeuta e adaptadas ao seu objetivo e condição física.</p>" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp000005",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#3B2A1E",
+        "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "cp000009",
+          "elType": "column",
+          "settings": { "_column_size": 33, "border_border": "solid", "border_color": "rgba(201,168,112,.2)", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }, "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+          "elements": [
+            { "id": "wp000023", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full" }, "elements": [] },
+            { "id": "wp000024", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='padding:2rem;'><span style='color:#C9A870;font-size:.9rem;'>01</span><h3 style='color:#FFFFFF;font-size:1.5rem;margin:.5rem 0;font-family:Cormorant Garamond,serif;'>Pilates Solo</h3><p style='color:rgba(255,255,255,.6);font-size:.9rem;line-height:1.8;'>Exercícios no colchonete que trabalham o fortalecimento global, controle respiratório e consciência corporal. Ideal para iniciantes, bem-estar geral e como complemento ao Pilates em Aparelhos.</p></div>" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "cp000010",
+          "elType": "column",
+          "settings": { "_column_size": 33, "border_border": "solid", "border_color": "rgba(201,168,112,.2)", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true } },
+          "elements": [
+            { "id": "wp000025", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full" }, "elements": [] },
+            { "id": "wp000026", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='padding:2rem;'><span style='color:#C9A870;font-size:.9rem;'>02</span><h3 style='color:#FFFFFF;font-size:1.5rem;margin:.5rem 0;font-family:Cormorant Garamond,serif;'>Pilates em Aparelhos</h3><p style='color:rgba(255,255,255,.6);font-size:.9rem;line-height:1.8;'>Uso do Reformer, Cadeira e outros equipamentos para maior amplitude de movimento, resistência progressiva e reabilitação ortopédica eficiente. Permite maior especificidade no tratamento.</p></div>" }, "elements": [] }
+          ]
+        },
+        {
+          "id": "cp000011",
+          "elType": "column",
+          "settings": { "_column_size": 33, "border_border": "solid", "border_color": "rgba(201,168,112,.2)", "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true }, "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true } },
+          "elements": [
+            { "id": "wp000027", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "" }, "image_size": "full" }, "elements": [] },
+            { "id": "wp000028", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<div style='padding:2rem;'><span style='color:#C9A870;font-size:.9rem;'>03</span><h3 style='color:#FFFFFF;font-size:1.5rem;margin:.5rem 0;font-family:Cormorant Garamond,serif;'>Pilates Terapêutico</h3><p style='color:rgba(255,255,255,.6);font-size:.9rem;line-height:1.8;'>Protocolo individualizado para pré e pós-operatório, dores crônicas, gestantes, idosos e condições específicas como hérnia de disco, escoliose e artrite. Totalmente personalizado.</p></div>" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp000006",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F8F3EC",
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "cp000012",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "wp000029", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C9A870;'>Resultados</p>" }, "elements": [] },
+            { "id": "wp000030", "elType": "widget", "widgetType": "heading", "settings": { "title": "O que o Pilates transforma", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wp000031", "elType": "widget", "widgetType": "divider", "settings": { "color": "#C9A870", "align": "center", "width": { "unit": "px", "size": 60 }, "gap": { "unit": "px", "size": 20 } }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp000007",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F8F3EC",
+        "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        { "id": "cp000013", "elType": "column", "settings": { "_column_size": 33, "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true } }, "elements": [
+            { "id": "wp000032", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>🦴 Alívio de Dores Crônicas</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Reduz dores na coluna, joelhos e quadris com exercícios precisos e seguros, trabalhando a causa do desequilíbrio.</p>" }, "elements": [] }
+        ] },
+        { "id": "cp000014", "elType": "column", "settings": { "_column_size": 33, "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true } }, "elements": [
+            { "id": "wp000033", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>⚡ Fortalecimento Muscular</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Fortalece o core e os grupos musculares profundos, estabilizando articulações e prevenindo lesões.</p>" }, "elements": [] }
+        ] },
+        { "id": "cp000015", "elType": "column", "settings": { "_column_size": 33, "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true } }, "elements": [
+            { "id": "wp000034", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>🧍 Correção Postural</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Melhora o alinhamento postural, reduzindo sobrecargas na coluna e prevenindo lesões futuras no dia a dia.</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sp000008",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#F8F3EC",
+        "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        { "id": "cp000016", "elType": "column", "settings": { "_column_size": 33, "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true } }, "elements": [
+            { "id": "wp000035", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>🤸 Mobilidade e Flexibilidade</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Aumenta a amplitude de movimento, alivia rigidez muscular e melhora a funcionalidade nas atividades cotidianas.</p>" }, "elements": [] }
+        ] },
+        { "id": "cp000017", "elType": "column", "settings": { "_column_size": 33, "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true } }, "elements": [
+            { "id": "wp000036", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>🧠 Equilíbrio e Coordenação</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Desenvolve propriocepção, equilíbrio e coordenação motora — essencial para idosos e atletas em reabilitação.</p>" }, "elements": [] }
+        ] },
+        { "id": "cp000018", "elType": "column", "settings": { "_column_size": 33, "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true } }, "elements": [
+            { "id": "wp000037", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<h4 style='color:#3B2A1E;'>😴 Qualidade de Vida</h4><p style='color:#5C4A3A;font-size:.9rem;line-height:1.7;'>Reduz estresse, melhora a qualidade do sono e promove bem-estar global com a prática regular e orientada.</p>" }, "elements": [] }
+        ] }
+      ]
+    },
+    {
+      "id": "sp000009",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#C9A870",
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "cp000019",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "wp000038", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8B6914;'>Primeira aula</p>" }, "elements": [] },
+            { "id": "wp000039", "elType": "widget", "widgetType": "heading", "settings": { "title": "Experimente o Pilates Clínico", "header_size": "h2", "title_color": "#3B2A1E", "align": "center", "typography_font_family": "Cormorant Garamond", "typography_font_size": { "unit": "px", "size": 42 } }, "elements": [] },
+            { "id": "wp000040", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='text-align:center;color:#5C4A2A;'>Aula experimental gratuita · Avaliação individualizada · Sem compromisso</p>" }, "elements": [] },
+            { "id": "wp000041", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar aula experimental →", "link": { "url": "https://api.whatsapp.com/send/?phone=5511967608428&text=Ol%C3%A1!%20Quero%20agendar%20uma%20aula%20experimental%20de%20Pilates%20na%20HC%20Pilates.", "is_external": true }, "background_color": "#3B2A1E", "button_text_color": "#C9A870", "align": "center" }, "elements": [] }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": { "post_title": "Pilates Clínico", "hide_title": "yes" }
+}
