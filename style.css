@@ -203,7 +203,7 @@ section         { padding: 6rem 0; }
 
 /* === ABOUT SPLIT (home) === */
 .about-split { display:grid; grid-template-columns:1fr 1fr; min-height:620px; }
-.about-split__photo { background-size:cover; background-position:center top; }
+.about-split__photo { background-size:cover; background-position:center top; min-height:600px; }
 .about-split__text  { background:var(--brown); padding:5rem 4rem; display:flex; flex-direction:column; justify-content:center; }
 .about-split__text .label { color:rgba(201,168,112,.65); }
 .about-split__text h2 { color:var(--white); margin-bottom:.5rem; }
@@ -371,7 +371,7 @@ footer { background:var(--black); padding:4rem 0 1.5rem; }
   .svc-card:last-child { grid-column:span 2; height:380px; }
 }
 @media(max-width:1024px) {
-  .about-split { grid-template-columns:1fr; }
+  .about-split { grid-template-columns:1fr; min-height:auto; }
   .about-split__text { padding:3.5rem 2rem; }
   .protocol-grid { grid-template-columns:1fr; }
   .footer-top { grid-template-columns:1fr 1fr; }
@@ -394,7 +394,7 @@ footer { background:var(--black); padding:4rem 0 1.5rem; }
   .footer-top { grid-template-columns:1fr; }
   .footer-bottom { flex-direction:column; gap:1rem; }
   .page-hero { min-height:55vh; }
-  .about-split__photo { min-height:380px; }
+  .about-split__photo { min-height:300px; max-height:380px; }
   .page-hero__content { padding:3rem 0; }
   .page-hero__btns { flex-direction:column; align-items:flex-start; gap:.75rem; }
   .cta-banner h2 { font-size:2rem; }
